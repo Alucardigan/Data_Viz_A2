@@ -16,18 +16,5 @@
       "type": "geoshape",
       "stroke": "black",
       "strokeWidth": 0.5
-    },
-    "encoding": {
-      "color": {
-        "field": "average_rent",
-        "type": "quantitative",
-        "scale": {
-          "scheme": "blues"  
-        }
-      },
-      "tooltip": [
-        {"field": "state", "type": "nominal"},
-        {"field": "average_rent", "type": "quantitative"}
-      ]
     }
   }
