@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A map of Australia showing rental prices by state.",
+    "width": 600,
+    "height": 400,
+    "data": {
+      "url": "data/AustralianMapWithBorders.json",  
+      "format": {
+        "type": "json"
+      }
+    },
+    "projection": {
+      "type": "mercator"  
+    },
+    "mark": {
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5
+    },
+    "encoding": {
+      "color": {
+        "field": "average_rent",
+        "type": "quantitative",
+        "scale": {
+          "scheme": "blues"  
+        }
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal"},
+        {"field": "average_rent", "type": "quantitative"}
+      ]
+    }
+  }
