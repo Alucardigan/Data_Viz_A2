@@ -10,6 +10,18 @@
       "feature": "ne_50m_admin_1_states_provinces"
     }
   },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "data/MedianHousePricesByState.csv"
+        },
+        "key": "State",
+        "fields": ["Median Housing Price", "Date"]  
+      }
+    }
+  ],
   "projection": {
     "type": "mercator"  
   },
@@ -17,5 +29,16 @@
     "type": "geoshape",
     "stroke": "black",
     "strokeWidth": 0.5
+  },
+  "encoding": {
+    "color": {
+      "field": "Median Housing Price",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "Median Housing Price", "type": "quantitative", "title": "Median Price"},
+      {"field": "Date", "type": "temporal", "title": "Date"} 
+    ]
   }
 }
