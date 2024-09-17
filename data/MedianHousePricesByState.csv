@@ -1,0 +1,1351 @@
+Date,State,Median Housing Price
+2002-03-01,Sydney,365.0
+2002-06-01,Sydney,393.5
+2002-09-01,Sydney,413.0
+2002-12-01,Sydney,444.0
+2003-03-01,Sydney,434.5
+2003-06-01,Sydney,460.0
+2003-09-01,Sydney,480.0
+2003-12-01,Sydney,520.0
+2004-03-01,Sydney,523.0
+2004-06-01,Sydney,498.0
+2004-09-01,Sydney,500.0
+2004-12-01,Sydney,515.0
+2005-03-01,Sydney,486.0
+2005-06-01,Sydney,500.0
+2005-09-01,Sydney,490.0
+2005-12-01,Sydney,500.0
+2006-03-01,Sydney,470.0
+2006-06-01,Sydney,495.0
+2006-09-01,Sydney,482.0
+2006-12-01,Sydney,500.0
+2007-03-01,Sydney,480.0
+2007-06-01,Sydney,512.3
+2007-09-01,Sydney,514.0
+2007-12-01,Sydney,540.0
+2008-03-01,Sydney,495.0
+2008-06-01,Sydney,517.0
+2008-09-01,Sydney,482.0
+2008-12-01,Sydney,468.0
+2009-03-01,Sydney,448.0
+2009-06-01,Sydney,490.0
+2009-09-01,Sydney,500.0
+2009-12-01,Sydney,595.0
+2010-03-01,Sydney,583.0
+2010-06-01,Sydney,612.5
+2010-09-01,Sydney,598.0
+2010-12-01,Sydney,620.0
+2011-03-01,Sydney,575.0
+2011-06-01,Sydney,592.0
+2011-09-01,Sydney,567.0
+2011-12-01,Sydney,533.0
+2012-03-01,Sydney,607.5
+2012-06-01,Sydney,600.0
+2012-09-01,Sydney,585.0
+2012-12-01,Sydney,640.0
+2013-03-01,Sydney,615.0
+2013-06-01,Sydney,650.0
+2013-09-01,Sydney,670.0
+2013-12-01,Sydney,745.0
+2014-03-01,Sydney,680.0
+2014-06-01,Sydney,728.0
+2014-09-01,Sydney,730.0
+2014-12-01,Sydney,816.0
+2015-03-01,Sydney,792.5
+2015-06-01,Sydney,860.0
+2015-09-01,Sydney,888.2
+2015-12-01,Sydney,915.0
+2016-03-01,Sydney,850.0
+2016-06-01,Sydney,895.0
+2016-09-01,Sydney,900.0
+2016-12-01,Sydney,985.5
+2017-03-01,Sydney,930.0
+2017-06-01,Sydney,1050.0
+2017-09-01,Sydney,950.0
+2017-12-01,Sydney,1029.0
+2018-03-01,Sydney,955.0
+2018-06-01,Sydney,973.1
+2018-09-01,Sydney,950.0
+2018-12-01,Sydney,940.0
+2019-03-01,Sydney,870.0
+2019-06-01,Sydney,897.0
+2019-09-01,Sydney,900.0
+2019-12-01,Sydney,985.0
+2020-03-01,Sydney,947.5
+2020-06-01,Sydney,955.0
+2020-09-01,Sydney,945.0
+2020-12-01,Sydney,999.0
+2021-03-01,Sydney,1052.0
+2021-06-01,Sydney,1206.4
+2021-09-01,Sydney,1300.0
+2021-12-01,Sydney,1360.0
+2022-03-01,Sydney,1325.0
+2022-06-01,Sydney,1352.6
+2022-09-01,Sydney,1300.0
+2022-12-01,Sydney,1301.0
+2023-03-01,Sydney,1260.0
+2023-06-01,Sydney,1360.0
+2023-09-01,Sydney,1380.0
+2023-12-01,Sydney,1400.0
+2024-03-01,Sydney,1400.0
+2024-06-01,Sydney,1400.0
+2002-03-01,New South Wales,303.0
+2002-06-01,New South Wales,326.75
+2002-09-01,New South Wales,339.0
+2002-12-01,New South Wales,362.0
+2003-03-01,New South Wales,352.25
+2003-06-01,New South Wales,373.75
+2003-09-01,New South Wales,247.3
+2003-12-01,New South Wales,255.0
+2004-03-01,New South Wales,265.0
+2004-06-01,New South Wales,270.0
+2004-09-01,New South Wales,275.0
+2004-12-01,New South Wales,278.0
+2005-03-01,New South Wales,280.0
+2005-06-01,New South Wales,280.0
+2005-09-01,New South Wales,280.0
+2005-12-01,New South Wales,285.0
+2006-03-01,New South Wales,290.0
+2006-06-01,New South Wales,290.0
+2006-09-01,New South Wales,285.0
+2006-12-01,New South Wales,290.0
+2007-03-01,New South Wales,300.0
+2007-06-01,New South Wales,300.0
+2007-09-01,New South Wales,300.0
+2007-12-01,New South Wales,310.0
+2008-03-01,New South Wales,308.0
+2008-06-01,New South Wales,305.0
+2008-09-01,New South Wales,297.5
+2008-12-01,New South Wales,290.0
+2009-03-01,New South Wales,300.0
+2009-06-01,New South Wales,300.0
+2009-09-01,New South Wales,310.0
+2009-12-01,New South Wales,340.0
+2010-03-01,New South Wales,340.0
+2010-06-01,New South Wales,340.0
+2010-09-01,New South Wales,340.0
+2010-12-01,New South Wales,340.0
+2011-03-01,New South Wales,345.0
+2011-06-01,New South Wales,342.0
+2011-09-01,New South Wales,335.0
+2011-12-01,New South Wales,330.0
+2012-03-01,New South Wales,345.0
+2012-06-01,New South Wales,346.0
+2012-09-01,New South Wales,335.0
+2012-12-01,New South Wales,360.0
+2013-03-01,New South Wales,357.5
+2013-06-01,New South Wales,355.0
+2013-09-01,New South Wales,350.0
+2013-12-01,New South Wales,370.0
+2014-03-01,New South Wales,362.0
+2014-06-01,New South Wales,368.0
+2014-09-01,New South Wales,368.6
+2014-12-01,New South Wales,380.0
+2015-03-01,New South Wales,390.0
+2015-06-01,New South Wales,395.0
+2015-09-01,New South Wales,410.0
+2015-12-01,New South Wales,412.0
+2016-03-01,New South Wales,415.0
+2016-06-01,New South Wales,425.0
+2016-09-01,New South Wales,430.5
+2016-12-01,New South Wales,445.0
+2017-03-01,New South Wales,455.0
+2017-06-01,New South Wales,460.0
+2017-09-01,New South Wales,460.0
+2017-12-01,New South Wales,471.5
+2018-03-01,New South Wales,480.0
+2018-06-01,New South Wales,480.0
+2018-09-01,New South Wales,475.0
+2018-12-01,New South Wales,464.8
+2019-03-01,New South Wales,462.0
+2019-06-01,New South Wales,470.0
+2019-09-01,New South Wales,475.0
+2019-12-01,New South Wales,500.0
+2020-03-01,New South Wales,490.0
+2020-06-01,New South Wales,490.0
+2020-09-01,New South Wales,510.0
+2020-12-01,New South Wales,541.0
+2021-03-01,New South Wales,560.0
+2021-06-01,New South Wales,590.0
+2021-09-01,New South Wales,625.0
+2021-12-01,New South Wales,685.0
+2022-03-01,New South Wales,702.0
+2022-06-01,New South Wales,700.0
+2022-09-01,New South Wales,690.0
+2022-12-01,New South Wales,702.8
+2023-03-01,New South Wales,700.0
+2023-06-01,New South Wales,710.0
+2023-09-01,New South Wales,720.0
+2023-12-01,New South Wales,720.0
+2024-03-01,New South Wales,742.3
+2024-06-01,New South Wales,735.0
+2002-03-01,Melbourne,241.0
+2002-06-01,Melbourne,260.0
+2002-09-01,Melbourne,265.0
+2002-12-01,Melbourne,280.0
+2003-03-01,Melbourne,270.0
+2003-06-01,Melbourne,287.5
+2003-09-01,Melbourne,295.0
+2003-12-01,Melbourne,320.0
+2004-03-01,Melbourne,305.0
+2004-06-01,Melbourne,307.5
+2004-09-01,Melbourne,302.0
+2004-12-01,Melbourne,321.0
+2005-03-01,Melbourne,310.0
+2005-06-01,Melbourne,320.0
+2005-09-01,Melbourne,320.0
+2005-12-01,Melbourne,332.0
+2006-03-01,Melbourne,330.0
+2006-06-01,Melbourne,345.0
+2006-09-01,Melbourne,346.0
+2006-12-01,Melbourne,360.0
+2007-03-01,Melbourne,345.0
+2007-06-01,Melbourne,362.0
+2007-09-01,Melbourne,370.0
+2007-12-01,Melbourne,410.0
+2008-03-01,Melbourne,385.0
+2008-06-01,Melbourne,400.0
+2008-09-01,Melbourne,385.0
+2008-12-01,Melbourne,385.0
+2009-03-01,Melbourne,375.0
+2009-06-01,Melbourne,400.0
+2009-09-01,Melbourne,422.0
+2009-12-01,Melbourne,477.5
+2010-03-01,Melbourne,468.0
+2010-06-01,Melbourne,500.0
+2010-09-01,Melbourne,488.3
+2010-12-01,Melbourne,520.0
+2011-03-01,Melbourne,485.0
+2011-06-01,Melbourne,502.5
+2011-09-01,Melbourne,487.0
+2011-12-01,Melbourne,495.0
+2012-03-01,Melbourne,478.0
+2012-06-01,Melbourne,485.0
+2012-09-01,Melbourne,480.0
+2012-12-01,Melbourne,508.0
+2013-03-01,Melbourne,486.0
+2013-06-01,Melbourne,500.0
+2013-09-01,Melbourne,520.0
+2013-12-01,Melbourne,561.0
+2014-03-01,Melbourne,504.0
+2014-06-01,Melbourne,528.9
+2014-09-01,Melbourne,505.0
+2014-12-01,Melbourne,552.5
+2015-03-01,Melbourne,525.0
+2015-06-01,Melbourne,561.0
+2015-09-01,Melbourne,580.0
+2015-12-01,Melbourne,612.3
+2016-03-01,Melbourne,568.0
+2016-06-01,Melbourne,610.0
+2016-09-01,Melbourne,605.0
+2016-12-01,Melbourne,675.0
+2017-03-01,Melbourne,657.5
+2017-06-01,Melbourne,720.0
+2017-09-01,Melbourne,692.0
+2017-12-01,Melbourne,750.0
+2018-03-01,Melbourne,731.0
+2018-06-01,Melbourne,750.0
+2018-09-01,Melbourne,720.0
+2018-12-01,Melbourne,735.0
+2019-03-01,Melbourne,685.0
+2019-06-01,Melbourne,700.0
+2019-09-01,Melbourne,705.0
+2019-12-01,Melbourne,760.0
+2020-03-01,Melbourne,730.0
+2020-06-01,Melbourne,720.0
+2020-09-01,Melbourne,710.0
+2020-12-01,Melbourne,760.0
+2021-03-01,Melbourne,800.0
+2021-06-01,Melbourne,830.0
+2021-09-01,Melbourne,840.0
+2021-12-01,Melbourne,940.0
+2022-03-01,Melbourne,888.0
+2022-06-01,Melbourne,900.0
+2022-09-01,Melbourne,850.0
+2022-12-01,Melbourne,875.0
+2023-03-01,Melbourne,835.0
+2023-06-01,Melbourne,842.0
+2023-09-01,Melbourne,840.0
+2023-12-01,Melbourne,869.0
+2024-03-01,Melbourne,840.0
+2024-06-01,Melbourne,814.0
+2002-03-01,Victoria,213.0
+2002-06-01,Victoria,221.3
+2002-09-01,Victoria,231.5
+2002-12-01,Victoria,244.0
+2003-03-01,Victoria,247.5
+2003-06-01,Victoria,263.75
+2003-09-01,Victoria,176.0
+2003-12-01,Victoria,185.0
+2004-03-01,Victoria,190.0
+2004-06-01,Victoria,195.0
+2004-09-01,Victoria,195.0
+2004-12-01,Victoria,205.0
+2005-03-01,Victoria,210.0
+2005-06-01,Victoria,205.0
+2005-09-01,Victoria,210.0
+2005-12-01,Victoria,220.0
+2006-03-01,Victoria,224.0
+2006-06-01,Victoria,220.0
+2006-09-01,Victoria,222.0
+2006-12-01,Victoria,230.0
+2007-03-01,Victoria,230.0
+2007-06-01,Victoria,230.0
+2007-09-01,Victoria,233.5
+2007-12-01,Victoria,245.0
+2008-03-01,Victoria,243.5
+2008-06-01,Victoria,239.0
+2008-09-01,Victoria,235.0
+2008-12-01,Victoria,236.0
+2009-03-01,Victoria,238.0
+2009-06-01,Victoria,245.0
+2009-09-01,Victoria,250.0
+2009-12-01,Victoria,266.5
+2010-03-01,Victoria,275.0
+2010-06-01,Victoria,278.2
+2010-09-01,Victoria,280.0
+2010-12-01,Victoria,292.5
+2011-03-01,Victoria,293.0
+2011-06-01,Victoria,295.0
+2011-09-01,Victoria,286.5
+2011-12-01,Victoria,290.5
+2012-03-01,Victoria,297.5
+2012-06-01,Victoria,285.0
+2012-09-01,Victoria,290.0
+2012-12-01,Victoria,291.5
+2013-03-01,Victoria,298.0
+2013-06-01,Victoria,282.5
+2013-09-01,Victoria,298.0
+2013-12-01,Victoria,308.0
+2014-03-01,Victoria,290.0
+2014-06-01,Victoria,286.0
+2014-09-01,Victoria,280.0
+2014-12-01,Victoria,298.0
+2015-03-01,Victoria,299.0
+2015-06-01,Victoria,295.0
+2015-09-01,Victoria,295.6
+2015-12-01,Victoria,310.0
+2016-03-01,Victoria,311.0
+2016-06-01,Victoria,305.0
+2016-09-01,Victoria,310.0
+2016-12-01,Victoria,320.8
+2017-03-01,Victoria,328.0
+2017-06-01,Victoria,332.0
+2017-09-01,Victoria,328.0
+2017-12-01,Victoria,350.0
+2018-03-01,Victoria,355.0
+2018-06-01,Victoria,355.0
+2018-09-01,Victoria,355.0
+2018-12-01,Victoria,370.0
+2019-03-01,Victoria,370.0
+2019-06-01,Victoria,370.0
+2019-09-01,Victoria,375.0
+2019-12-01,Victoria,390.0
+2020-03-01,Victoria,390.0
+2020-06-01,Victoria,395.0
+2020-09-01,Victoria,410.0
+2020-12-01,Victoria,439.0
+2021-03-01,Victoria,455.0
+2021-06-01,Victoria,478.5
+2021-09-01,Victoria,500.0
+2021-12-01,Victoria,553.0
+2022-03-01,Victoria,580.0
+2022-06-01,Victoria,572.5
+2022-09-01,Victoria,560.0
+2022-12-01,Victoria,570.0
+2023-03-01,Victoria,570.0
+2023-06-01,Victoria,570.0
+2023-09-01,Victoria,570.0
+2023-12-01,Victoria,575.0
+2024-03-01,Victoria,570.0
+2024-06-01,Victoria,560.0
+2002-03-01,Brisbane,185.0
+2002-06-01,Brisbane,182.6
+2002-09-01,Brisbane,198.0
+2002-12-01,Brisbane,208.0
+2003-03-01,Brisbane,225.0
+2003-06-01,Brisbane,240.0
+2003-09-01,Brisbane,269.0
+2003-12-01,Brisbane,296.4
+2004-03-01,Brisbane,302.7
+2004-06-01,Brisbane,305.0
+2004-09-01,Brisbane,305.0
+2004-12-01,Brisbane,310.0
+2005-03-01,Brisbane,312.0
+2005-06-01,Brisbane,312.0
+2005-09-01,Brisbane,314.9
+2005-12-01,Brisbane,320.0
+2006-03-01,Brisbane,325.0
+2006-06-01,Brisbane,330.0
+2006-09-01,Brisbane,335.0
+2006-12-01,Brisbane,343.5
+2007-03-01,Brisbane,352.0
+2007-06-01,Brisbane,375.0
+2007-09-01,Brisbane,390.0
+2007-12-01,Brisbane,415.0
+2008-03-01,Brisbane,425.0
+2008-06-01,Brisbane,425.0
+2008-09-01,Brisbane,410.0
+2008-12-01,Brisbane,399.0
+2009-03-01,Brisbane,400.0
+2009-06-01,Brisbane,420.0
+2009-09-01,Brisbane,430.0
+2009-12-01,Brisbane,455.0
+2010-03-01,Brisbane,460.0
+2010-06-01,Brisbane,465.0
+2010-09-01,Brisbane,460.0
+2010-12-01,Brisbane,460.0
+2011-03-01,Brisbane,450.0
+2011-06-01,Brisbane,442.0
+2011-09-01,Brisbane,433.0
+2011-12-01,Brisbane,430.0
+2012-03-01,Brisbane,430.0
+2012-06-01,Brisbane,435.0
+2012-09-01,Brisbane,435.0
+2012-12-01,Brisbane,440.0
+2013-03-01,Brisbane,440.0
+2013-06-01,Brisbane,445.0
+2013-09-01,Brisbane,449.0
+2013-12-01,Brisbane,465.0
+2014-03-01,Brisbane,448.0
+2014-06-01,Brisbane,459.0
+2014-09-01,Brisbane,451.0
+2014-12-01,Brisbane,467.0
+2015-03-01,Brisbane,462.8
+2015-06-01,Brisbane,465.0
+2015-09-01,Brisbane,475.0
+2015-12-01,Brisbane,490.0
+2016-03-01,Brisbane,483.5
+2016-06-01,Brisbane,495.0
+2016-09-01,Brisbane,500.0
+2016-12-01,Brisbane,515.0
+2017-03-01,Brisbane,510.0
+2017-06-01,Brisbane,518.0
+2017-09-01,Brisbane,525.0
+2017-12-01,Brisbane,535.0
+2018-03-01,Brisbane,526.0
+2018-06-01,Brisbane,532.0
+2018-09-01,Brisbane,540.0
+2018-12-01,Brisbane,540.0
+2019-03-01,Brisbane,533.0
+2019-06-01,Brisbane,538.0
+2019-09-01,Brisbane,540.0
+2019-12-01,Brisbane,550.0
+2020-03-01,Brisbane,540.0
+2020-06-01,Brisbane,547.0
+2020-09-01,Brisbane,555.0
+2020-12-01,Brisbane,575.0
+2021-03-01,Brisbane,600.0
+2021-06-01,Brisbane,630.0
+2021-09-01,Brisbane,657.0
+2021-12-01,Brisbane,750.0
+2022-03-01,Brisbane,765.0
+2022-06-01,Brisbane,773.4
+2022-09-01,Brisbane,750.0
+2022-12-01,Brisbane,750.0
+2023-03-01,Brisbane,756.0
+2023-06-01,Brisbane,775.0
+2023-09-01,Brisbane,800.0
+2023-12-01,Brisbane,834.5
+2024-03-01,Brisbane,855.0
+2024-06-01,Brisbane,885.5
+2002-03-01,Queensland,175.5
+2002-06-01,Queensland,178.8
+2002-09-01,Queensland,189.5
+2002-12-01,Queensland,201.5
+2003-03-01,Queensland,217.2
+2003-06-01,Queensland,230.25
+2003-09-01,Queensland,197.0
+2003-12-01,Queensland,205.0
+2004-03-01,Queensland,224.0
+2004-06-01,Queensland,235.0
+2004-09-01,Queensland,244.0
+2004-12-01,Queensland,255.0
+2005-03-01,Queensland,270.0
+2005-06-01,Queensland,280.0
+2005-09-01,Queensland,285.0
+2005-12-01,Queensland,290.0
+2006-03-01,Queensland,309.0
+2006-06-01,Queensland,312.5
+2006-09-01,Queensland,318.4
+2006-12-01,Queensland,330.0
+2007-03-01,Queensland,347.0
+2007-06-01,Queensland,365.0
+2007-09-01,Queensland,376.0
+2007-12-01,Queensland,380.0
+2008-03-01,Queensland,380.0
+2008-06-01,Queensland,380.0
+2008-09-01,Queensland,365.0
+2008-12-01,Queensland,365.0
+2009-03-01,Queensland,370.0
+2009-06-01,Queensland,372.8
+2009-09-01,Queensland,380.0
+2009-12-01,Queensland,395.0
+2010-03-01,Queensland,400.0
+2010-06-01,Queensland,395.0
+2010-09-01,Queensland,388.0
+2010-12-01,Queensland,387.5
+2011-03-01,Queensland,392.8
+2011-06-01,Queensland,383.0
+2011-09-01,Queensland,380.0
+2011-12-01,Queensland,380.0
+2012-03-01,Queensland,380.0
+2012-06-01,Queensland,375.0
+2012-09-01,Queensland,380.0
+2012-12-01,Queensland,380.0
+2013-03-01,Queensland,390.0
+2013-06-01,Queensland,385.5
+2013-09-01,Queensland,386.3
+2013-12-01,Queensland,395.0
+2014-03-01,Queensland,390.0
+2014-06-01,Queensland,390.0
+2014-09-01,Queensland,390.0
+2014-12-01,Queensland,405.0
+2015-03-01,Queensland,410.0
+2015-06-01,Queensland,410.3
+2015-09-01,Queensland,415.0
+2015-12-01,Queensland,420.0
+2016-03-01,Queensland,425.0
+2016-06-01,Queensland,425.0
+2016-09-01,Queensland,435.0
+2016-12-01,Queensland,439.0
+2017-03-01,Queensland,440.0
+2017-06-01,Queensland,449.0
+2017-09-01,Queensland,445.0
+2017-12-01,Queensland,450.0
+2018-03-01,Queensland,449.0
+2018-06-01,Queensland,435.0
+2018-09-01,Queensland,440.0
+2018-12-01,Queensland,433.0
+2019-03-01,Queensland,434.0
+2019-06-01,Queensland,440.0
+2019-09-01,Queensland,441.0
+2019-12-01,Queensland,448.0
+2020-03-01,Queensland,430.0
+2020-06-01,Queensland,430.0
+2020-09-01,Queensland,449.0
+2020-12-01,Queensland,460.0
+2021-03-01,Queensland,465.0
+2021-06-01,Queensland,480.0
+2021-09-01,Queensland,480.0
+2021-12-01,Queensland,500.0
+2022-03-01,Queensland,519.0
+2022-06-01,Queensland,528.0
+2022-09-01,Queensland,528.0
+2022-12-01,Queensland,530.0
+2023-03-01,Queensland,540.0
+2023-06-01,Queensland,560.0
+2023-09-01,Queensland,570.0
+2023-12-01,Queensland,580.0
+2024-03-01,Queensland,600.0
+2024-06-01,Queensland,625.0
+2002-03-01,Adelaide,166.0
+2002-06-01,Adelaide,175.0
+2002-09-01,Adelaide,181.0
+2002-12-01,Adelaide,195.0
+2003-03-01,Adelaide,209.4
+2003-06-01,Adelaide,220.5
+2003-09-01,Adelaide,235.0
+2003-12-01,Adelaide,247.5
+2004-03-01,Adelaide,250.0
+2004-06-01,Adelaide,257.5
+2004-09-01,Adelaide,261.0
+2004-12-01,Adelaide,270.0
+2005-03-01,Adelaide,270.0
+2005-06-01,Adelaide,271.0
+2005-09-01,Adelaide,275.0
+2005-12-01,Adelaide,280.0
+2006-03-01,Adelaide,280.0
+2006-06-01,Adelaide,286.0
+2006-09-01,Adelaide,290.0
+2006-12-01,Adelaide,300.0
+2007-03-01,Adelaide,305.0
+2007-06-01,Adelaide,315.0
+2007-09-01,Adelaide,335.0
+2007-12-01,Adelaide,358.0
+2008-03-01,Adelaide,360.0
+2008-06-01,Adelaide,365.0
+2008-09-01,Adelaide,360.0
+2008-12-01,Adelaide,355.0
+2009-03-01,Adelaide,353.5
+2009-06-01,Adelaide,363.0
+2009-09-01,Adelaide,370.0
+2009-12-01,Adelaide,398.8
+2010-03-01,Adelaide,402.0
+2010-06-01,Adelaide,410.0
+2010-09-01,Adelaide,400.0
+2010-12-01,Adelaide,410.0
+2011-03-01,Adelaide,400.0
+2011-06-01,Adelaide,395.0
+2011-09-01,Adelaide,390.0
+2011-12-01,Adelaide,385.0
+2012-03-01,Adelaide,382.0
+2012-06-01,Adelaide,385.0
+2012-09-01,Adelaide,386.0
+2012-12-01,Adelaide,395.0
+2013-03-01,Adelaide,395.0
+2013-06-01,Adelaide,395.0
+2013-09-01,Adelaide,395.0
+2013-12-01,Adelaide,412.0
+2014-03-01,Adelaide,407.0
+2014-06-01,Adelaide,405.0
+2014-09-01,Adelaide,410.0
+2014-12-01,Adelaide,425.0
+2015-03-01,Adelaide,415.5
+2015-06-01,Adelaide,420.0
+2015-09-01,Adelaide,427.5
+2015-12-01,Adelaide,436.0
+2016-03-01,Adelaide,436.0
+2016-06-01,Adelaide,440.0
+2016-09-01,Adelaide,445.0
+2016-12-01,Adelaide,447.0
+2017-03-01,Adelaide,451.3
+2017-06-01,Adelaide,450.0
+2017-09-01,Adelaide,451.0
+2017-12-01,Adelaide,470.0
+2018-03-01,Adelaide,465.0
+2018-06-01,Adelaide,468.0
+2018-09-01,Adelaide,466.3
+2018-12-01,Adelaide,480.0
+2019-03-01,Adelaide,475.0
+2019-06-01,Adelaide,478.5
+2019-09-01,Adelaide,474.0
+2019-12-01,Adelaide,485.0
+2020-03-01,Adelaide,472.0
+2020-06-01,Adelaide,487.5
+2020-09-01,Adelaide,500.0
+2020-12-01,Adelaide,512.5
+2021-03-01,Adelaide,523.0
+2021-06-01,Adelaide,550.0
+2021-09-01,Adelaide,580.0
+2021-12-01,Adelaide,630.0
+2022-03-01,Adelaide,650.0
+2022-06-01,Adelaide,663.0
+2022-09-01,Adelaide,654.8
+2022-12-01,Adelaide,675.0
+2023-03-01,Adelaide,680.0
+2023-06-01,Adelaide,705.0
+2023-09-01,Adelaide,720.0
+2023-12-01,Adelaide,765.0
+2024-03-01,Adelaide,775.0
+2024-06-01,Adelaide,795.0
+2002-03-01,South Australia,178.0
+2002-06-01,South Australia,182.5
+2002-09-01,South Australia,188.0
+2002-12-01,South Australia,200.5
+2003-03-01,South Australia,212.7
+2003-06-01,South Australia,222.75
+2003-09-01,South Australia,150.0
+2003-12-01,South Australia,162.0
+2004-03-01,South Australia,166.6
+2004-06-01,South Australia,169.0
+2004-09-01,South Australia,175.0
+2004-12-01,South Australia,182.0
+2005-03-01,South Australia,187.0
+2005-06-01,South Australia,192.0
+2005-09-01,South Australia,189.3
+2005-12-01,South Australia,199.0
+2006-03-01,South Australia,210.0
+2006-06-01,South Australia,210.0
+2006-09-01,South Australia,200.0
+2006-12-01,South Australia,215.0
+2007-03-01,South Australia,223.0
+2007-06-01,South Australia,223.3
+2007-09-01,South Australia,228.0
+2007-12-01,South Australia,245.0
+2008-03-01,South Australia,250.0
+2008-06-01,South Australia,240.0
+2008-09-01,South Australia,245.0
+2008-12-01,South Australia,245.0
+2009-03-01,South Australia,248.0
+2009-06-01,South Australia,245.0
+2009-09-01,South Australia,260.0
+2009-12-01,South Australia,267.0
+2010-03-01,South Australia,280.0
+2010-06-01,South Australia,278.0
+2010-09-01,South Australia,275.0
+2010-12-01,South Australia,277.3
+2011-03-01,South Australia,270.0
+2011-06-01,South Australia,275.0
+2011-09-01,South Australia,260.0
+2011-12-01,South Australia,270.0
+2012-03-01,South Australia,270.0
+2012-06-01,South Australia,270.0
+2012-09-01,South Australia,265.0
+2012-12-01,South Australia,250.0
+2013-03-01,South Australia,247.5
+2013-06-01,South Australia,255.0
+2013-09-01,South Australia,253.0
+2013-12-01,South Australia,268.3
+2014-03-01,South Australia,265.0
+2014-06-01,South Australia,250.0
+2014-09-01,South Australia,255.0
+2014-12-01,South Australia,275.0
+2015-03-01,South Australia,265.0
+2015-06-01,South Australia,260.0
+2015-09-01,South Australia,260.0
+2015-12-01,South Australia,273.5
+2016-03-01,South Australia,275.0
+2016-06-01,South Australia,265.0
+2016-09-01,South Australia,270.0
+2016-12-01,South Australia,280.0
+2017-03-01,South Australia,285.0
+2017-06-01,South Australia,270.0
+2017-09-01,South Australia,277.5
+2017-12-01,South Australia,273.4
+2018-03-01,South Australia,280.0
+2018-06-01,South Australia,276.0
+2018-09-01,South Australia,280.0
+2018-12-01,South Australia,295.0
+2019-03-01,South Australia,285.0
+2019-06-01,South Australia,276.5
+2019-09-01,South Australia,287.5
+2019-12-01,South Australia,290.0
+2020-03-01,South Australia,290.0
+2020-06-01,South Australia,280.0
+2020-09-01,South Australia,285.0
+2020-12-01,South Australia,307.5
+2021-03-01,South Australia,300.0
+2021-06-01,South Australia,310.0
+2021-09-01,South Australia,309.0
+2021-12-01,South Australia,335.0
+2022-03-01,South Australia,335.0
+2022-06-01,South Australia,350.0
+2022-09-01,South Australia,345.0
+2022-12-01,South Australia,363.0
+2023-03-01,South Australia,381.9
+2023-06-01,South Australia,395.0
+2023-09-01,South Australia,410.3
+2023-12-01,South Australia,425.0
+2024-03-01,South Australia,455.0
+2024-06-01,South Australia,448.6
+2002-03-01,Perth,190.0
+2002-06-01,Perth,190.0
+2002-09-01,Perth,195.0
+2002-12-01,Perth,206.0
+2003-03-01,Perth,216.0
+2003-06-01,Perth,225.0
+2003-09-01,Perth,236.0
+2003-12-01,Perth,250.0
+2004-03-01,Perth,255.0
+2004-06-01,Perth,262.0
+2004-09-01,Perth,259.0
+2004-12-01,Perth,280.0
+2005-03-01,Perth,290.0
+2005-06-01,Perth,300.0
+2005-09-01,Perth,315.0
+2005-12-01,Perth,340.0
+2006-03-01,Perth,370.0
+2006-06-01,Perth,415.0
+2006-09-01,Perth,450.0
+2006-12-01,Perth,470.0
+2007-03-01,Perth,475.0
+2007-06-01,Perth,465.0
+2007-09-01,Perth,475.0
+2007-12-01,Perth,480.0
+2008-03-01,Perth,470.0
+2008-06-01,Perth,455.0
+2008-09-01,Perth,440.0
+2008-12-01,Perth,425.0
+2009-03-01,Perth,439.0
+2009-06-01,Perth,455.0
+2009-09-01,Perth,473.0
+2009-12-01,Perth,505.0
+2010-03-01,Perth,518.0
+2010-06-01,Perth,510.0
+2010-09-01,Perth,500.0
+2010-12-01,Perth,500.0
+2011-03-01,Perth,500.0
+2011-06-01,Perth,485.0
+2011-09-01,Perth,470.0
+2011-12-01,Perth,480.0
+2012-03-01,Perth,489.5
+2012-06-01,Perth,499.0
+2012-09-01,Perth,495.0
+2012-12-01,Perth,510.0
+2013-03-01,Perth,520.0
+2013-06-01,Perth,529.0
+2013-09-01,Perth,520.0
+2013-12-01,Perth,552.0
+2014-03-01,Perth,530.5
+2014-06-01,Perth,525.0
+2014-09-01,Perth,530.0
+2014-12-01,Perth,531.0
+2015-03-01,Perth,536.5
+2015-06-01,Perth,537.0
+2015-09-01,Perth,520.0
+2015-12-01,Perth,525.0
+2016-03-01,Perth,518.0
+2016-06-01,Perth,520.0
+2016-09-01,Perth,510.0
+2016-12-01,Perth,525.0
+2017-03-01,Perth,510.0
+2017-06-01,Perth,506.0
+2017-09-01,Perth,500.0
+2017-12-01,Perth,515.0
+2018-03-01,Perth,510.0
+2018-06-01,Perth,510.0
+2018-09-01,Perth,485.0
+2018-12-01,Perth,489.0
+2019-03-01,Perth,490.0
+2019-06-01,Perth,480.0
+2019-09-01,Perth,478.0
+2019-12-01,Perth,495.0
+2020-03-01,Perth,477.5
+2020-06-01,Perth,475.0
+2020-09-01,Perth,495.0
+2020-12-01,Perth,528.0
+2021-03-01,Perth,535.0
+2021-06-01,Perth,540.0
+2021-09-01,Perth,525.0
+2021-12-01,Perth,558.8
+2022-03-01,Perth,550.0
+2022-06-01,Perth,565.0
+2022-09-01,Perth,555.0
+2022-12-01,Perth,580.0
+2023-03-01,Perth,577.0
+2023-06-01,Perth,600.0
+2023-09-01,Perth,618.0
+2023-12-01,Perth,670.0
+2024-03-01,Perth,705.0
+2024-06-01,Perth,750.0
+2002-03-01,Western Australia,156.65
+2002-06-01,Western Australia,153.5
+2002-09-01,Western Australia,159.5
+2002-12-01,Western Australia,167.0
+2003-03-01,Western Australia,180.5
+2003-06-01,Western Australia,187.0
+2003-09-01,Western Australia,160.0
+2003-12-01,Western Australia,164.0
+2004-03-01,Western Australia,178.0
+2004-06-01,Western Australia,178.0
+2004-09-01,Western Australia,185.0
+2004-12-01,Western Australia,199.8
+2005-03-01,Western Australia,225.0
+2005-06-01,Western Australia,230.0
+2005-09-01,Western Australia,245.0
+2005-12-01,Western Australia,265.0
+2006-03-01,Western Australia,295.0
+2006-06-01,Western Australia,324.0
+2006-09-01,Western Australia,335.0
+2006-12-01,Western Australia,350.0
+2007-03-01,Western Australia,370.0
+2007-06-01,Western Australia,374.0
+2007-09-01,Western Australia,376.4
+2007-12-01,Western Australia,379.5
+2008-03-01,Western Australia,390.0
+2008-06-01,Western Australia,360.0
+2008-09-01,Western Australia,365.0
+2008-12-01,Western Australia,351.0
+2009-03-01,Western Australia,360.0
+2009-06-01,Western Australia,370.0
+2009-09-01,Western Australia,375.0
+2009-12-01,Western Australia,400.0
+2010-03-01,Western Australia,410.0
+2010-06-01,Western Australia,385.0
+2010-09-01,Western Australia,380.0
+2010-12-01,Western Australia,385.0
+2011-03-01,Western Australia,385.3
+2011-06-01,Western Australia,380.0
+2011-09-01,Western Australia,375.0
+2011-12-01,Western Australia,372.5
+2012-03-01,Western Australia,385.0
+2012-06-01,Western Australia,375.0
+2012-09-01,Western Australia,380.0
+2012-12-01,Western Australia,370.0
+2013-03-01,Western Australia,380.5
+2013-06-01,Western Australia,380.0
+2013-09-01,Western Australia,375.0
+2013-12-01,Western Australia,385.0
+2014-03-01,Western Australia,379.0
+2014-06-01,Western Australia,366.0
+2014-09-01,Western Australia,370.0
+2014-12-01,Western Australia,380.0
+2015-03-01,Western Australia,370.0
+2015-06-01,Western Australia,355.0
+2015-09-01,Western Australia,350.0
+2015-12-01,Western Australia,350.0
+2016-03-01,Western Australia,360.5
+2016-06-01,Western Australia,330.0
+2016-09-01,Western Australia,327.8
+2016-12-01,Western Australia,345.0
+2017-03-01,Western Australia,350.0
+2017-06-01,Western Australia,327.0
+2017-09-01,Western Australia,325.0
+2017-12-01,Western Australia,340.0
+2018-03-01,Western Australia,338.0
+2018-06-01,Western Australia,310.0
+2018-09-01,Western Australia,321.5
+2018-12-01,Western Australia,320.0
+2019-03-01,Western Australia,330.0
+2019-06-01,Western Australia,320.0
+2019-09-01,Western Australia,310.0
+2019-12-01,Western Australia,337.8
+2020-03-01,Western Australia,337.0
+2020-06-01,Western Australia,327.0
+2020-09-01,Western Australia,365.0
+2020-12-01,Western Australia,375.0
+2021-03-01,Western Australia,392.5
+2021-06-01,Western Australia,379.0
+2021-09-01,Western Australia,365.0
+2021-12-01,Western Australia,380.0
+2022-03-01,Western Australia,380.0
+2022-06-01,Western Australia,375.0
+2022-09-01,Western Australia,380.0
+2022-12-01,Western Australia,390.0
+2023-03-01,Western Australia,400.0
+2023-06-01,Western Australia,400.0
+2023-09-01,Western Australia,410.0
+2023-12-01,Western Australia,440.0
+2024-03-01,Western Australia,450.0
+2024-06-01,Western Australia,466.0
+2002-03-01,Hobart,123.3
+2002-06-01,Hobart,117.0
+2002-09-01,Hobart,124.0
+2002-12-01,Hobart,128.0
+2003-03-01,Hobart,145.0
+2003-06-01,Hobart,149.0
+2003-09-01,Hobart,165.0
+2003-12-01,Hobart,182.3
+2004-03-01,Hobart,200.0
+2004-06-01,Hobart,225.0
+2004-09-01,Hobart,230.0
+2004-12-01,Hobart,237.3
+2005-03-01,Hobart,240.0
+2005-06-01,Hobart,250.0
+2005-09-01,Hobart,245.0
+2005-12-01,Hobart,252.5
+2006-03-01,Hobart,260.0
+2006-06-01,Hobart,270.0
+2006-09-01,Hobart,270.0
+2006-12-01,Hobart,278.0
+2007-03-01,Hobart,280.0
+2007-06-01,Hobart,291.5
+2007-09-01,Hobart,285.0
+2007-12-01,Hobart,310.0
+2008-03-01,Hobart,308.5
+2008-06-01,Hobart,305.0
+2008-09-01,Hobart,292.5
+2008-12-01,Hobart,300.0
+2009-03-01,Hobart,296.5
+2009-06-01,Hobart,310.0
+2009-09-01,Hobart,310.1
+2009-12-01,Hobart,350.0
+2010-03-01,Hobart,350.5
+2010-06-01,Hobart,343.8
+2010-09-01,Hobart,340.0
+2010-12-01,Hobart,345.0
+2011-03-01,Hobart,338.0
+2011-06-01,Hobart,330.0
+2011-09-01,Hobart,335.0
+2011-12-01,Hobart,337.5
+2012-03-01,Hobart,343.0
+2012-06-01,Hobart,327.5
+2012-09-01,Hobart,315.0
+2012-12-01,Hobart,331.3
+2013-03-01,Hobart,340.0
+2013-06-01,Hobart,330.0
+2013-09-01,Hobart,325.0
+2013-12-01,Hobart,350.0
+2014-03-01,Hobart,360.0
+2014-06-01,Hobart,340.0
+2014-09-01,Hobart,345.0
+2014-12-01,Hobart,356.5
+2015-03-01,Hobart,360.0
+2015-06-01,Hobart,350.0
+2015-09-01,Hobart,340.0
+2015-12-01,Hobart,370.0
+2016-03-01,Hobart,360.0
+2016-06-01,Hobart,365.0
+2016-09-01,Hobart,370.0
+2016-12-01,Hobart,392.0
+2017-03-01,Hobart,389.5
+2017-06-01,Hobart,400.0
+2017-09-01,Hobart,395.0
+2017-12-01,Hobart,421.0
+2018-03-01,Hobart,449.0
+2018-06-01,Hobart,457.8
+2018-09-01,Hobart,440.3
+2018-12-01,Hobart,465.0
+2019-03-01,Hobart,471.5
+2019-06-01,Hobart,490.0
+2019-09-01,Hobart,480.0
+2019-12-01,Hobart,517.0
+2020-03-01,Hobart,529.0
+2020-06-01,Hobart,520.0
+2020-09-01,Hobart,528.5
+2020-12-01,Hobart,567.7
+2021-03-01,Hobart,610.0
+2021-06-01,Hobart,630.0
+2021-09-01,Hobart,700.0
+2021-12-01,Hobart,754.0
+2022-03-01,Hobart,765.0
+2022-06-01,Hobart,765.0
+2022-09-01,Hobart,720.0
+2022-12-01,Hobart,731.0
+2023-03-01,Hobart,705.0
+2023-06-01,Hobart,700.0
+2023-09-01,Hobart,700.0
+2023-12-01,Hobart,705.0
+2024-03-01,Hobart,707.5
+2024-06-01,Hobart,660.0
+2002-03-01,Tasmania,156.65
+2002-06-01,Tasmania,152.65
+2002-09-01,Tasmania,157.0
+2002-12-01,Tasmania,161.5
+2003-03-01,Tasmania,171.5
+2003-06-01,Tasmania,174.75
+2003-09-01,Tasmania,125.0
+2003-12-01,Tasmania,139.3
+2004-03-01,Tasmania,156.0
+2004-06-01,Tasmania,156.0
+2004-09-01,Tasmania,160.0
+2004-12-01,Tasmania,166.5
+2005-03-01,Tasmania,179.0
+2005-06-01,Tasmania,178.3
+2005-09-01,Tasmania,180.0
+2005-12-01,Tasmania,192.0
+2006-03-01,Tasmania,192.0
+2006-06-01,Tasmania,200.0
+2006-09-01,Tasmania,195.0
+2006-12-01,Tasmania,199.0
+2007-03-01,Tasmania,210.0
+2007-06-01,Tasmania,220.0
+2007-09-01,Tasmania,220.0
+2007-12-01,Tasmania,230.0
+2008-03-01,Tasmania,239.5
+2008-06-01,Tasmania,230.0
+2008-09-01,Tasmania,235.0
+2008-12-01,Tasmania,225.0
+2009-03-01,Tasmania,235.0
+2009-06-01,Tasmania,240.0
+2009-09-01,Tasmania,245.0
+2009-12-01,Tasmania,252.3
+2010-03-01,Tasmania,262.0
+2010-06-01,Tasmania,257.0
+2010-09-01,Tasmania,260.0
+2010-12-01,Tasmania,260.0
+2011-03-01,Tasmania,263.9
+2011-06-01,Tasmania,250.0
+2011-09-01,Tasmania,250.0
+2011-12-01,Tasmania,250.0
+2012-03-01,Tasmania,250.0
+2012-06-01,Tasmania,247.0
+2012-09-01,Tasmania,249.0
+2012-12-01,Tasmania,252.3
+2013-03-01,Tasmania,250.0
+2013-06-01,Tasmania,255.0
+2013-09-01,Tasmania,249.5
+2013-12-01,Tasmania,250.0
+2014-03-01,Tasmania,247.0
+2014-06-01,Tasmania,236.3
+2014-09-01,Tasmania,262.5
+2014-12-01,Tasmania,253.5
+2015-03-01,Tasmania,255.0
+2015-06-01,Tasmania,252.5
+2015-09-01,Tasmania,257.5
+2015-12-01,Tasmania,265.0
+2016-03-01,Tasmania,264.0
+2016-06-01,Tasmania,253.0
+2016-09-01,Tasmania,255.0
+2016-12-01,Tasmania,274.5
+2017-03-01,Tasmania,263.0
+2017-06-01,Tasmania,275.0
+2017-09-01,Tasmania,273.5
+2017-12-01,Tasmania,285.0
+2018-03-01,Tasmania,295.0
+2018-06-01,Tasmania,300.0
+2018-09-01,Tasmania,293.0
+2018-12-01,Tasmania,310.0
+2019-03-01,Tasmania,310.0
+2019-06-01,Tasmania,310.0
+2019-09-01,Tasmania,320.0
+2019-12-01,Tasmania,340.0
+2020-03-01,Tasmania,335.5
+2020-06-01,Tasmania,340.0
+2020-09-01,Tasmania,350.0
+2020-12-01,Tasmania,380.0
+2021-03-01,Tasmania,400.0
+2021-06-01,Tasmania,420.0
+2021-09-01,Tasmania,445.0
+2021-12-01,Tasmania,500.9
+2022-03-01,Tasmania,530.5
+2022-06-01,Tasmania,525.0
+2022-09-01,Tasmania,510.5
+2022-12-01,Tasmania,535.0
+2023-03-01,Tasmania,520.0
+2023-06-01,Tasmania,540.0
+2023-09-01,Tasmania,530.0
+2023-12-01,Tasmania,525.0
+2024-03-01,Tasmania,532.6
+2024-06-01,Tasmania,520.0
+2002-03-01,Darwin,190.0
+2002-06-01,Darwin,188.3
+2002-09-01,Darwin,190.0
+2002-12-01,Darwin,195.0
+2003-03-01,Darwin,198.0
+2003-06-01,Darwin,200.5
+2003-09-01,Darwin,214.0
+2003-12-01,Darwin,226.0
+2004-03-01,Darwin,239.5
+2004-06-01,Darwin,248.8
+2004-09-01,Darwin,245.0
+2004-12-01,Darwin,259.0
+2005-03-01,Darwin,275.0
+2005-06-01,Darwin,280.0
+2005-09-01,Darwin,295.0
+2005-12-01,Darwin,320.0
+2006-03-01,Darwin,341.5
+2006-06-01,Darwin,349.5
+2006-09-01,Darwin,360.0
+2006-12-01,Darwin,380.0
+2007-03-01,Darwin,389.5
+2007-06-01,Darwin,395.0
+2007-09-01,Darwin,400.0
+2007-12-01,Darwin,418.5
+2008-03-01,Darwin,420.0
+2008-06-01,Darwin,422.3
+2008-09-01,Darwin,430.0
+2008-12-01,Darwin,445.0
+2009-03-01,Darwin,455.0
+2009-06-01,Darwin,465.0
+2009-09-01,Darwin,490.0
+2009-12-01,Darwin,520.0
+2010-03-01,Darwin,529.0
+2010-06-01,Darwin,530.0
+2010-09-01,Darwin,535.0
+2010-12-01,Darwin,545.0
+2011-03-01,Darwin,510.0
+2011-06-01,Darwin,500.0
+2011-09-01,Darwin,497.0
+2011-12-01,Darwin,515.0
+2012-03-01,Darwin,525.0
+2012-06-01,Darwin,543.5
+2012-09-01,Darwin,540.0
+2012-12-01,Darwin,561.0
+2013-03-01,Darwin,530.0
+2013-06-01,Darwin,540.0
+2013-09-01,Darwin,570.0
+2013-12-01,Darwin,579.0
+2014-03-01,Darwin,595.0
+2014-06-01,Darwin,557.5
+2014-09-01,Darwin,570.0
+2014-12-01,Darwin,581.0
+2015-03-01,Darwin,570.0
+2015-06-01,Darwin,595.0
+2015-09-01,Darwin,580.0
+2015-12-01,Darwin,575.0
+2016-03-01,Darwin,570.0
+2016-06-01,Darwin,548.0
+2016-09-01,Darwin,520.0
+2016-12-01,Darwin,522.0
+2017-03-01,Darwin,530.0
+2017-06-01,Darwin,500.0
+2017-09-01,Darwin,500.0
+2017-12-01,Darwin,513.8
+2018-03-01,Darwin,500.0
+2018-06-01,Darwin,506.0
+2018-09-01,Darwin,500.0
+2018-12-01,Darwin,510.0
+2019-03-01,Darwin,485.0
+2019-06-01,Darwin,470.0
+2019-09-01,Darwin,489.0
+2019-12-01,Darwin,470.0
+2020-03-01,Darwin,470.0
+2020-06-01,Darwin,465.0
+2020-09-01,Darwin,500.0
+2020-12-01,Darwin,522.5
+2021-03-01,Darwin,535.0
+2021-06-01,Darwin,565.0
+2021-09-01,Darwin,580.0
+2021-12-01,Darwin,600.0
+2022-03-01,Darwin,600.0
+2022-06-01,Darwin,585.0
+2022-09-01,Darwin,560.0
+2022-12-01,Darwin,590.0
+2023-03-01,Darwin,575.0
+2023-06-01,Darwin,590.0
+2023-09-01,Darwin,595.0
+2023-12-01,Darwin,587.3
+2024-03-01,Darwin,570.0
+2024-06-01,Darwin,587.5
+2002-03-01,Northern Territory,217.5
+2002-06-01,Northern Territory,223.15
+2002-09-01,Northern Territory,232.5
+2002-12-01,Northern Territory,243.0
+2003-03-01,Northern Territory,249.0
+2003-06-01,Northern Territory,267.5
+2003-09-01,Northern Territory,195.0
+2003-12-01,Northern Territory,204.5
+2004-03-01,Northern Territory,217.8
+2004-06-01,Northern Territory,215.0
+2004-09-01,Northern Territory,227.5
+2004-12-01,Northern Territory,227.0
+2005-03-01,Northern Territory,231.0
+2005-06-01,Northern Territory,230.0
+2005-09-01,Northern Territory,232.0
+2005-12-01,Northern Territory,246.0
+2006-03-01,Northern Territory,215.0
+2006-06-01,Northern Territory,240.0
+2006-09-01,Northern Territory,247.5
+2006-12-01,Northern Territory,260.0
+2007-03-01,Northern Territory,250.0
+2007-06-01,Northern Territory,278.8
+2007-09-01,Northern Territory,270.0
+2007-12-01,Northern Territory,289.0
+2008-03-01,Northern Territory,285.0
+2008-06-01,Northern Territory,285.0
+2008-09-01,Northern Territory,285.0
+2008-12-01,Northern Territory,296.8
+2009-03-01,Northern Territory,321.0
+2009-06-01,Northern Territory,335.0
+2009-09-01,Northern Territory,345.0
+2009-12-01,Northern Territory,368.0
+2010-03-01,Northern Territory,364.0
+2010-06-01,Northern Territory,395.0
+2010-09-01,Northern Territory,421.5
+2010-12-01,Northern Territory,435.0
+2011-03-01,Northern Territory,430.0
+2011-06-01,Northern Territory,400.0
+2011-09-01,Northern Territory,397.0
+2011-12-01,Northern Territory,410.0
+2012-03-01,Northern Territory,395.0
+2012-06-01,Northern Territory,392.5
+2012-09-01,Northern Territory,385.5
+2012-12-01,Northern Territory,428.0
+2013-03-01,Northern Territory,415.0
+2013-06-01,Northern Territory,388.0
+2013-09-01,Northern Territory,389.9
+2013-12-01,Northern Territory,424.0
+2014-03-01,Northern Territory,412.5
+2014-06-01,Northern Territory,420.0
+2014-09-01,Northern Territory,439.0
+2014-12-01,Northern Territory,420.0
+2015-03-01,Northern Territory,430.0
+2015-06-01,Northern Territory,450.0
+2015-09-01,Northern Territory,455.0
+2015-12-01,Northern Territory,412.5
+2016-03-01,Northern Territory,472.5
+2016-06-01,Northern Territory,426.0
+2016-09-01,Northern Territory,353.5
+2016-12-01,Northern Territory,454.5
+2017-03-01,Northern Territory,430.1
+2017-06-01,Northern Territory,423.5
+2017-09-01,Northern Territory,443.0
+2017-12-01,Northern Territory,437.5
+2018-03-01,Northern Territory,445.0
+2018-06-01,Northern Territory,453.5
+2018-09-01,Northern Territory,417.0
+2018-12-01,Northern Territory,452.5
+2019-03-01,Northern Territory,419.5
+2019-06-01,Northern Territory,422.5
+2019-09-01,Northern Territory,410.0
+2019-12-01,Northern Territory,434.5
+2020-03-01,Northern Territory,420.0
+2020-06-01,Northern Territory,434.5
+2020-09-01,Northern Territory,440.0
+2020-12-01,Northern Territory,417.5
+2021-03-01,Northern Territory,462.0
+2021-06-01,Northern Territory,460.0
+2021-09-01,Northern Territory,460.0
+2021-12-01,Northern Territory,480.0
+2022-03-01,Northern Territory,460.0
+2022-06-01,Northern Territory,487.0
+2022-09-01,Northern Territory,460.0
+2022-12-01,Northern Territory,497.0
+2023-03-01,Northern Territory,505.4
+2023-06-01,Northern Territory,478.0
+2023-09-01,Northern Territory,470.0
+2023-12-01,Northern Territory,461.3
+2024-03-01,Northern Territory,425.0
+2024-06-01,Northern Territory,430.0
+2002-03-01,Canberra,245.0
+2002-06-01,Canberra,258.0
+2002-09-01,Canberra,275.0
+2002-12-01,Canberra,291.0
+2003-03-01,Canberra,300.0
+2003-06-01,Canberra,334.5
+2003-09-01,Canberra,360.0
+2003-12-01,Canberra,375.0
+2004-03-01,Canberra,375.0
+2004-06-01,Canberra,375.0
+2004-09-01,Canberra,352.5
+2004-12-01,Canberra,372.0
+2005-03-01,Canberra,374.7
+2005-06-01,Canberra,373.5
+2005-09-01,Canberra,365.0
+2005-12-01,Canberra,387.0
+2006-03-01,Canberra,385.0
+2006-06-01,Canberra,399.5
+2006-09-01,Canberra,413.0
+2006-12-01,Canberra,420.8
+2007-03-01,Canberra,430.0
+2007-06-01,Canberra,445.0
+2007-09-01,Canberra,460.0
+2007-12-01,Canberra,468.0
+2008-03-01,Canberra,470.0
+2008-06-01,Canberra,474.0
+2008-09-01,Canberra,447.0
+2008-12-01,Canberra,450.0
+2009-03-01,Canberra,459.5
+2009-06-01,Canberra,455.0
+2009-09-01,Canberra,456.0
+2009-12-01,Canberra,509.0
+2010-03-01,Canberra,530.0
+2010-06-01,Canberra,516.2
+2010-09-01,Canberra,530.0
+2010-12-01,Canberra,534.5
+2011-03-01,Canberra,530.0
+2011-06-01,Canberra,533.0
+2011-09-01,Canberra,490.0
+2011-12-01,Canberra,500.0
+2012-03-01,Canberra,512.5
+2012-06-01,Canberra,482.5
+2012-09-01,Canberra,490.0
+2012-12-01,Canberra,519.0
+2013-03-01,Canberra,505.0
+2013-06-01,Canberra,510.0
+2013-09-01,Canberra,505.0
+2013-12-01,Canberra,503.3
+2014-03-01,Canberra,553.7
+2014-06-01,Canberra,550.0
+2014-09-01,Canberra,554.0
+2014-12-01,Canberra,570.0
+2015-03-01,Canberra,585.0
+2015-06-01,Canberra,580.0
+2015-09-01,Canberra,587.5
+2015-12-01,Canberra,615.0
+2016-03-01,Canberra,590.0
+2016-06-01,Canberra,623.0
+2016-09-01,Canberra,615.8
+2016-12-01,Canberra,636.0
+2017-03-01,Canberra,654.5
+2017-06-01,Canberra,670.0
+2017-09-01,Canberra,667.5
+2017-12-01,Canberra,690.0
+2018-03-01,Canberra,698.5
+2018-06-01,Canberra,690.0
+2018-09-01,Canberra,700.0
+2018-12-01,Canberra,720.0
+2019-03-01,Canberra,690.0
+2019-06-01,Canberra,715.0
+2019-09-01,Canberra,676.0
+2019-12-01,Canberra,745.0
+2020-03-01,Canberra,720.5
+2020-06-01,Canberra,720.0
+2020-09-01,Canberra,755.0
+2020-12-01,Canberra,785.0
+2021-03-01,Canberra,835.0
+2021-06-01,Canberra,905.0
+2021-09-01,Canberra,940.0
+2021-12-01,Canberra,1040.0
+2022-03-01,Canberra,1080.0
+2022-06-01,Canberra,1059.0
+2022-09-01,Canberra,1000.0
+2022-12-01,Canberra,1000.0
+2023-03-01,Canberra,985.0
+2023-06-01,Canberra,983.0
+2023-09-01,Canberra,985.0
+2023-12-01,Canberra,999.0
+2024-03-01,Canberra,985.0
+2024-06-01,Canberra,975.0
