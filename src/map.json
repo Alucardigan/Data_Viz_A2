@@ -4,38 +4,38 @@
   "width": 600,
   "height": 400,
   "data": {
-    "url": "data/AustralianMapWithBorders.json",
-    "format": {
-      "type": "topojson",
-      "feature": "ne_50m_admin_1_states_provinces"
-    }
+    "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/MedianHousePricesByState.csv"
   },
   "transform": [
     {
-      "lookup": "properties.name",
+      "lookup": "State",
       "from": {
         "data": {
-          "url": "data/MedianHousePricesByState.csv"
+          "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/AustralianMapWithBorders.json",
+          "format": {
+            "type": "topojson",
+            "feature": "ne_50m_admin_1_states_provinces"
+          }
         },
-        "key": "State",
-        "fields": ["Median Housing Price", "Date"]
+        "key": "properties.name",
+        "fields": ["type", "geometry"]
       }
     },
     {
-      "calculate": "toDate(datum['Date'])",
-      "as": "ParsedDate"
+      "filter": "yearSelect == datum.Year"
     }
   ],
   "params": [
     {
-      "name": "dateRange",
+      "name": "yearSelect",
       "bind": {
         "input": "range",
-        "min": 1017619200000,  
-        "max": 1025568000000,  
-        "step": 7776000000,    
-        "name": "Date Range: "
-      }
+        "min": 2002,
+        "max": 2024,
+        "step": 1,
+        "name": "Select Year:"
+      },
+      "value":2024
     }
   ],
   "projection": {
@@ -48,13 +48,16 @@
   },
   "encoding": {
     "color": {
-      "field": "Median Housing Price",
-      "type": "quantitative"
+      "field": "MedianHousingPrice",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 1200]
+      }
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State"},
-      {"field": "Median Housing Price", "type": "quantitative", "title": "Median Price"},
-      {"field": "ParsedDate", "type": "temporal", "title": "Date"}
+      {"field": "MedianHousingPrice", "type": "quantitative", "title": "Median Price"},
+      {"field": "Year", "type": "quantitative", "title": "Year"}
     ]
   }
 }

@@ -31,9 +31,11 @@ numeric_df_interpolated = numeric_df.interpolate(method='linear', axis=1)
 
 df = pd.concat([df['Date'], numeric_df_interpolated], axis=1)
 
-pivotDf = pd.melt(df,id_vars=['Date'],var_name='State',value_name='Median Housing Price')
-pivotDf.to_csv("MedianHousePricesByState.csv",index=False)
-print(pivotDf)
-with open('AustralianMapWithBorders.json','r') as file:
-    data = json.load(file)
-    print(data["objects"]["ne_50m_admin_1_states_provinces"]["geometries"][0]['properties'])
+pivotDf = pd.melt(df,id_vars=['Date'],var_name='State',value_name='MedianHousingPrice')
+pivotDf['Date'] = pd.to_datetime(pivotDf["Date"])
+pivotDf['Year'] = pivotDf["Date"].dt.year
+yearly_avg = pivotDf.groupby(['Year','State'])['MedianHousingPrice'].mean().reset_index()
+yearly_avg['UniqueKey'] = [x for x in range(len(yearly_avg["Year"]))]
+print(yearly_avg.head())
+
+yearly_avg.to_csv("MedianHousePricesByState.csv",index=False)
