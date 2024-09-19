@@ -51,11 +51,14 @@
       "field": "MedianHousingPrice",
       "type": "quantitative",
       "scale": {
-        "domain": [0, 1200]
+        "domain": [200000,1200000]
+      },
+      "legend":{
+        "format":"~s"
       }
     },
     "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "State", "type": "nominal", "title": "State"},
       {"field": "MedianHousingPrice", "type": "quantitative", "title": "Median Price"},
       {"field": "Year", "type": "quantitative", "title": "Year"}
     ]
