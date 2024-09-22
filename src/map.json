@@ -41,26 +41,43 @@
   "projection": {
     "type": "mercator"
   },
-  "mark": {
-    "type": "geoshape",
-    "stroke": "black",
-    "strokeWidth": 0.5
-  },
-  "encoding": {
-    "color": {
-      "field": "MedianHousingPrice",
-      "type": "quantitative",
-      "scale": {
-        "domain": [200000,1200000]
-      },
-      "legend":{
-        "format":"~s"
-      }
+  "layer":[
+    {"mark": {
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5
     },
-    "tooltip": [
-      {"field": "State", "type": "nominal", "title": "State"},
-      {"field": "MedianHousingPrice", "type": "quantitative", "title": "Median Price"},
-      {"field": "Year", "type": "quantitative", "title": "Year"}
-    ]
-  }
+    "encoding": {
+      "color": {
+        "field": "MedianHousingPrice",
+        "type": "quantitative",
+        "scale": {
+          "domain": [200000,1200000]
+        },
+        "legend":{
+          "format":"~s"
+        }
+      },
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "State"},
+        {"field": "MedianHousingPrice", "type": "quantitative", "title": "Median Price"},
+        {"field": "Year", "type": "quantitative", "title": "Year"}
+      ]
+    }},
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/AustralianMapWithBorders.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_50m_graticules_5"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      }
+    }
+  ]
+  
 }
