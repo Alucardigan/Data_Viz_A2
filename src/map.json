@@ -5,11 +5,11 @@
   "height": "container",
   "description": "A map of Australia showing rental prices by state.",
   "title":{
-    "text":"Median Housing Price by State",
+    "text":"Housing Price per capita",
     "font":"Nunito Sans"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/MedianHousePricesByState.csv"
+    "url": "data/finalData.csv"
   },
   "transform": [
     {
@@ -54,22 +54,24 @@
     },
     "encoding": {
       "color": {
-        "field": "MedianHousingPrice",
+        "field": "HousingPricePerCapita",
         
         "type": "quantitative",
         "scale": {
-          "domain": [200000,1200000]
+          "domain": [0,2]
         },
         "legend":{
           "format":"~s",
           "labelFont":"Nunito Sans",
-          "title":"Median Housing Price",
-          "titleFont":"Lato"
+          "title":"Price per capita",
+          "titleFont":"Nunito Sans"
         }
       },
       "tooltip": [
         {"field": "State", "type": "nominal", "title": "State"},
-        {"field": "MedianHousingPrice", "type": "quantitative", "title": "Median Price"},
+        {"field": "MedianHousingPrice", "type": "quantitative", "title": "HousingPrice"},
+        {"field": "Population", "type": "quantitative", "title": "Population"},
+        {"field": "HousingPricePerCapita", "type": "quantitative", "title": "Median Price"},
         {"field": "Year", "type": "quantitative", "title": "Year"}
       ]
     }},

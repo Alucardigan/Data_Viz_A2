@@ -13,7 +13,7 @@ stateNames = {
 
 # Load the data
 df = pd.read_excel("median_house_prices.xlsx", sheet_name="Data1")
-
+print(df.head())
 new_names = {}
 for column in df.columns:
     if ';' in column:
@@ -35,7 +35,17 @@ pivotDf = pd.melt(df,id_vars=['Date'],var_name='State',value_name='MedianHousing
 pivotDf['Date'] = pd.to_datetime(pivotDf["Date"])
 pivotDf['Year'] = pivotDf["Date"].dt.year
 yearly_avg = pivotDf.groupby(['Year','State'])['MedianHousingPrice'].mean().reset_index()
-yearly_avg['UniqueKey'] = [x for x in range(len(yearly_avg["Year"]))]
-print(yearly_avg.head())
-
 yearly_avg.to_csv("MedianHousePricesByState.csv",index=False)
+
+popDf = pd.read_excel("ausPopData.xlsx", sheet_name="Sheet1")
+pivotPopDf = pd.melt(popDf,id_vars=['Date'],var_name='State',value_name='Population')
+print(pivotPopDf.head())
+pivotPopDf['Year'] = pivotPopDf["Date"].dt.year
+popDf = pivotPopDf.groupby(['Year','State'])['Population'].mean().reset_index()
+popDf.to_csv("popData.csv",index=False)
+
+mergedDf = yearly_avg.merge(popDf[['State','Population']],on='State')
+mergedDf['HousingPricePerCapita'] = (mergedDf['MedianHousingPrice']*1000)/mergedDf['Population']
+
+print(mergedDf.head())
+mergedDf.to_csv("finalData.csv",index=False)
