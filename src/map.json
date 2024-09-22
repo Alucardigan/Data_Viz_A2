@@ -9,7 +9,7 @@
     "font":"Nunito Sans"
   },
   "data": {
-    "url": "data/finalData.csv"
+    "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/finalData.csv"
   },
   "transform": [
     {
