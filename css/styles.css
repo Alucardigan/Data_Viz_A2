@@ -3,9 +3,16 @@
 	right: 5vh;
 	height: 72vh;
 	width: 100vh;
+	margin: 0 auto;
 }
 #title { 
 	font-family: "Roboto Mono",monospace;
 	font-size: 5vh;
 	text-align: center;
+}
+#visualisation {
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
