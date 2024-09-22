@@ -71,7 +71,7 @@
         {"field": "State", "type": "nominal", "title": "State"},
         {"field": "MedianHousingPrice", "type": "quantitative", "title": "HousingPrice"},
         {"field": "Population", "type": "quantitative", "title": "Population"},
-        {"field": "HousingPricePerCapita", "type": "quantitative", "title": "Median Price"},
+        {"field": "HousingPricePerCapita", "type": "quantitative", "title": "Price per capita"},
         {"field": "Year", "type": "quantitative", "title": "Year"}
       ]
     }},
