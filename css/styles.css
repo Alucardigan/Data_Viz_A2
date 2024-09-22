@@ -1,8 +1,11 @@
 #symbol_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
+	left: 5vh;
+	right: 5vh;
+	height: 72vh;
+	width: 100vh;
+}
+#title { 
+	font-family: "Roboto Mono",monospace;
+	font-size: 5vh;
+	text-align: center;
 }

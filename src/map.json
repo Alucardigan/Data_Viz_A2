@@ -1,8 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "autosize": {"type": "fit", "contains": "padding"},
+  "width": "container",
+  "height": "container",
   "description": "A map of Australia showing rental prices by state.",
-  "width": 600,
-  "height": 400,
+  "title":{
+    "text":"Median Housing Price by State",
+    "font":"Nunito Sans"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/MedianHousePricesByState.csv"
   },
@@ -50,12 +55,16 @@
     "encoding": {
       "color": {
         "field": "MedianHousingPrice",
+        
         "type": "quantitative",
         "scale": {
           "domain": [200000,1200000]
         },
         "legend":{
-          "format":"~s"
+          "format":"~s",
+          "labelFont":"Nunito Sans",
+          "title":"Median Housing Price",
+          "titleFont":"Lato"
         }
       },
       "tooltip": [
