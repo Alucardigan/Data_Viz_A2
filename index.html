@@ -15,6 +15,7 @@
 <div id="title">The Australian Real Estate Bubble</div>
 <div id="visualisation">
   <div id="symbol_map"></div>
+  <div id="line_map"></div>
 </div>
 
 
@@ -24,6 +25,9 @@
   vegaEmbed('#symbol_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+  let spec3 = "src/indexLine.json"
+  vegaEmbed('#line_map',spec3).then(function(result){
+  }).catch(console.error)
 </script>
 </div>
 

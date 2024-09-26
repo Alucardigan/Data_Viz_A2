@@ -16,3 +16,10 @@ justify-content: center;
 align-items: center;
 
 }
+#line_map {
+	left: 5vh;
+	right: 5vh;
+	height: 72vh;
+	width: 100vh;
+	margin: 0 auto;
+}

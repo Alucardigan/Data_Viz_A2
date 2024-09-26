@@ -1,5 +1,8 @@
+#imports 
 import pandas as pd
 import json
+from  functools import reduce 
+
 stateNames = {
     "NSW": "New South Wales",
     "Vic.":"Victoria",
@@ -10,8 +13,7 @@ stateNames = {
     "SA":"South Australia"
 
 }
-
-# Load the data
+#Median house price stuff
 df = pd.read_excel("median_house_prices.xlsx", sheet_name="Data1")
 print(df.head())
 new_names = {}
@@ -37,6 +39,7 @@ pivotDf['Year'] = pivotDf["Date"].dt.year
 yearly_avg = pivotDf.groupby(['Year','State'])['MedianHousingPrice'].mean().reset_index()
 yearly_avg.to_csv("MedianHousePricesByState.csv",index=False)
 
+#Pop Data
 popDf = pd.read_excel("ausPopData.xlsx", sheet_name="Sheet1")
 pivotPopDf = pd.melt(popDf,id_vars=['Date'],var_name='State',value_name='Population')
 print(pivotPopDf.head())
@@ -49,3 +52,27 @@ mergedDf['HousingPricePerCapita'] = (mergedDf['MedianHousingPrice']*1000)/merged
 
 print(mergedDf.head())
 mergedDf.to_csv("finalData.csv",index=False)
+
+#Index data modification
+hpi = pd.read_excel("index_data.xlsx",sheet_name="HPI")
+hpi['Year'] = hpi["Date"].dt.year
+hpi = hpi.groupby(["Year"])['HPI'].mean().reset_index()
+wpi = pd.read_excel("index_data.xlsx",sheet_name="WPI")
+wpi['Year'] = wpi["Date"].dt.year
+wpi = wpi.groupby(["Year"])['WPI'].mean().reset_index()
+cpi = pd.read_excel("index_data.xlsx",sheet_name="CPI")
+cpi['Year'] = cpi["Date"].dt.year
+cpi = cpi.groupby(["Year"])['CPI'].mean().reset_index()
+
+
+print(hpi.head())
+print(wpi.head())
+print(cpi.head())
+
+data_frames = [hpi,wpi,cpi]
+mergedDf = reduce(lambda  left,right: pd.merge(left,right,on=['Year'],how='outer'), data_frames)
+mergedDf['HPI'] = mergedDf['HPI'].interpolate(method='linear')
+print(mergedDf.tail())
+mergedDf = pd.melt(mergedDf,id_vars="Year",value_vars=['HPI','WPI','CPI'],var_name="Index")
+print(mergedDf.head())
+mergedDf.to_csv("IndexData.csv",index=False)
