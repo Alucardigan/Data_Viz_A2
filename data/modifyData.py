@@ -2,6 +2,7 @@
 import pandas as pd
 import json
 from  functools import reduce 
+import numpy as np 
 
 stateNames = {
     "NSW": "New South Wales",
@@ -76,3 +77,13 @@ print(mergedDf.tail())
 mergedDf = pd.melt(mergedDf,id_vars="Year",value_vars=['HPI','WPI','CPI'],var_name="Index")
 print(mergedDf.head())
 mergedDf.to_csv("IndexData.csv",index=False)
+
+#age vs tenure stuff 
+df1 = pd.read_excel("ownershipOverTime.xlsx")
+print(df1.head())
+numeric_df = df1.select_dtypes(include=[float])
+
+numeric_df_interpolated = numeric_df.interpolate(method='linear', axis=1)
+df1 = pd.concat([df1['Tenure type'], numeric_df_interpolated], axis=1)
+meltDf = pd.melt(df1,id_vars="Tenure type",var_name="Year",value_name="%")
+meltDf.to_csv("TenureOverTime.csv",index=False)

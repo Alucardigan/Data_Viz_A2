@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "HPI vs CPI vs WPI visualised",
+    "data": {"url": "data/TenureOverTime.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "%", "type": "quantitative"},
+      "color":{"field":"Tenure type", "type": "nominal"}
+    }
+  
+}
