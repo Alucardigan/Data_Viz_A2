@@ -87,3 +87,14 @@ numeric_df_interpolated = numeric_df.interpolate(method='linear', axis=1)
 df1 = pd.concat([df1['Tenure type'], numeric_df_interpolated], axis=1)
 meltDf = pd.melt(df1,id_vars="Tenure type",var_name="Year",value_name="%")
 meltDf.to_csv("TenureOverTime.csv",index=False)
+
+#income used on household_costs
+df = pd.read_excel('incomeUsedByHousehold.xlsx')
+df.drop([4],inplace=True)
+
+numeric_df = df.select_dtypes(include=[float])
+
+numeric_df_interpolated = numeric_df.interpolate(method='linear', axis=1)
+df = pd.concat([df['Date'], numeric_df_interpolated], axis=1)
+meltDf = pd.melt(df,id_vars="Date",var_name="Year",value_name="%")
+meltDf.to_csv("incomeUsedByHousehold.csv",index=False)

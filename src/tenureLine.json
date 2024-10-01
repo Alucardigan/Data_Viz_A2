@@ -3,6 +3,8 @@
     "description": "HPI vs CPI vs WPI visualised",
     "data": {"url": "data/TenureOverTime.csv"},
     "mark": "line",
+    "width": "container",
+    "height": "container",
     "encoding": {
       "x": {"field": "Year", "type": "temporal"},
       "y": {"field": "%", "type": "quantitative"},

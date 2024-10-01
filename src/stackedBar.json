@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/incomeUsedByHousehold.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "timeUnit": "year",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field":"Percentage",
+        "type": "quantitative",
+        "stack":true
+      },
+      "color": {
+        "field": "Quantile",
+        "type": "nominal",
+        "title": "Quantile"
+      }
+    }
+  }
+  

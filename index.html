@@ -15,8 +15,12 @@
 <div id="title">The Australian Real Estate Bubble</div>
 <div id="visualisation">
   <div id="symbol_map"></div>
-  <div id="Indexline_map"></div>
-  <div id="line_map"></div>
+  <div id="row">
+    <div id="Indexline_map"></div>
+    <div id="line_map"></div>
+    <div id="stackedBar"></div>
+  </div>
+  
 </div>
 
 
@@ -31,6 +35,9 @@
   }).catch(console.error)
   let spec4 = "src/tenureLine.json"
   vegaEmbed('#line_map',spec4).then(function(result){
+  }).catch(console.error)
+  let spec5 = "src/stackedBar.json"
+  vegaEmbed('#stackedBar',spec5).then(function(result){
   }).catch(console.error)
 </script>
 </div>

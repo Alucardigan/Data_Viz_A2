@@ -3,6 +3,8 @@
     "description": "HPI vs CPI vs WPI visualised",
     "data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/part_2/data/IndexData.csv"},
     "mark": "line",
+    "width": "container",
+    "height": "container",
     "transform": [{"filter":"datum.Year<=1609459200000"}],
     "encoding": {
       "x": {"field": "Year", "type": "temporal"},

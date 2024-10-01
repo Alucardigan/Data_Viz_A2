@@ -11,7 +11,7 @@
 	text-align: center;
 }
 #visualisation {
-	display: flex;
+	display: grid;
 	justify-content: center;
 	align-items: center;
 
@@ -24,6 +24,13 @@
 	margin: 0 auto;
 }
 #Indexline_map{
+	left: 5vh;
+	right: 5vh;
+	height: 72vh;
+	width: 100vh;
+	margin: 0 auto;
+}
+#stackedBar{
 	left: 5vh;
 	right: 5vh;
 	height: 72vh;
