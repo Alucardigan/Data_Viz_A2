@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "data/incomeUsedByHousehold.csv"},
+    "width": "container",
+    "height": "container",
     "mark": "bar",
     "encoding": {
       "x": {

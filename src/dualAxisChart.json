@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A dual-axis chart to compare population growth and housing approvals by state over time, with a state selection dropdown.",
-  "width": 600,
-  "height": 400,
+  "width": "container",
+  "height": "container",
   "data": {
     "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/part_2/data/HousingApprovalsVSPopulation.csv"
   },

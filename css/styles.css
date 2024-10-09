@@ -1,46 +1,40 @@
 #symbol_map {
-	left: 5vh;
-	right: 5vh;
-	height: 72vh;
-	width: 100vh;
-	margin: 0 auto;
+    left: 5vh;
+    right: 5vh;
+    height: 60vh;
+    width: 100vh;
+    margin: 0 auto;
 }
-#title { 
-	font-family: "Roboto Mono",monospace;
-	font-size: 5vh;
-	text-align: center;
-}
-#visualisation {
-	display: grid;
-	justify-content: center;
-	align-items: center;
 
+#title { 
+    font-family: "Roboto Mono", monospace;
+    font-size: 5vh;
+    text-align: center;
 }
-#line_map {
-	left: 5vh;
-	right: 5vh;
-	height: 72vh;
-	width: 100vh;
-	margin: 0 auto;
+
+#visualisation {
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
-#Indexline_map{
-	left: 5vh;
-	right: 5vh;
-	height: 72vh;
-	width: 100vh;
-	margin: 0 auto;
+
+#row {
+    display: block;
+    text-align: center;
+    margin: 2vh 0;
 }
-#stackedBar{
-	left: 5vh;
-	right: 5vh;
-	height: 72vh;
-	width: 100vh;
-	margin: 0 auto;
+
+#row div {
+    display: inline-block;
+    height: 72vh;
+    width: 48vh; /* Set each map to be half the width of its container */
+    margin: 0 2vh; /* Space between maps */
 }
-#dualAxis{
-	left: 5vh;
-	right: 5vh;
-	height: 72vh;
-	width: 100vh;
-	margin: 0 auto;
+
+#line_map, #Indexline_map, #stackedBar, #dualAxis {
+    left: 5vh;
+    right: 5vh;
+    height: 60vh;
+    width: 100vh;
+    margin: 0 auto;
 }
