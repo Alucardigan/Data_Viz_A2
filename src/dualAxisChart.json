@@ -4,7 +4,7 @@
   "width": "container",
   "height": "container",
   "data": {
-    "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/part_2/data/HousingApprovalsVSPopulation.csv"
+    "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/HousingApprovalsVSPopulation.csv"
   },
   "title":{
     "text":"Australian Population vs Building Approvals",

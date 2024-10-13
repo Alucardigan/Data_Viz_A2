@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "HPI vs CPI vs WPI visualised",
-    "data": {"url": "data/TenureOverTime.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/TenureOverTime.csv"},
     "mark": "line",
     "width": "container",
     "height": "container",

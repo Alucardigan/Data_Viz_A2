@@ -2,7 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "description": "HPI vs CPI vs WPI visualised",
-    "layer":[{"data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/part_2/data/IndexData.csv"},
+    
+    "layer":[{"data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/IndexData.csv"},
     "mark": {"type":"line","point":true},
     "transform": [{"filter":"datum.Year<=1609459200000"}],
     "encoding": {
