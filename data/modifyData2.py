@@ -14,6 +14,7 @@ stateNames = {
 
 }
 #housing approvals 
+"""
 df = pd.read_excel('housing_approvals.xlsx',sheet_name='Sheet1')
 df = pd.melt(df,id_vars=['Date'],var_name='State',value_name='Housing Approvals')
 df['Year'] = df["Date"].dt.year
@@ -38,3 +39,10 @@ combined_df.dropna(inplace=True)
 print(combined_df.head(18))
 
 combined_df.to_csv("HousingApprovalsVSPopulation.csv",index=False)
+"""
+df = pd.read_excel('avgIncome.xlsx',sheet_name='Sheet1')
+df = pd.melt(df,id_vars=['Date'],var_name='State',value_name='MedianIncome')
+df['Date'] = pd.to_datetime(df["Date"])
+df['Year'] = df["Date"].dt.year
+df['MedianIncome'] = df['MedianIncome']*52
+df.to_csv('avgIncome.csv',index=False)
