@@ -1,40 +1,35 @@
-#symbol_map {
-    left: 5vh;
-    right: 5vh;
-    height: 60vh;
-    width: 100vh;
-    margin: 0 auto;
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f9f7f1;
+    color: #333;
 }
-
-#title { 
-    font-family: "Roboto Mono", monospace;
-    font-size: 5vh;
-    text-align: center;
+.navbar {
+    background-color: #333;
+    border-bottom: 2px solid #000;
 }
-
-#visualisation {
-    display: block;
-    justify-content: center;
-    align-items: center;
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #f9f7f1 !important;
 }
-
-#row {
-    display: block;
-    text-align: center;
-    margin: 2vh 0;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
 }
-
-#row div {
-    display: inline-block;
-    height: 72vh;
-    width: 48vh; /* Set each map to be half the width of its container */
-    margin: 0 2vh; /* Space between maps */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
-
-#line_map, #Indexline_map, #stackedBar, #dualAxis {
-    left: 5vh;
-    right: 5vh;
-    height: 60vh;
-    width: 100vh;
-    margin: 0 auto;
+.card-title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+.chart-container {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.date-line {
+    font-style: italic;
+    color: #666;
 }
