@@ -3,7 +3,7 @@
   "hconcat": [
     {
       "width": "container",
-      "height": 400,
+      "height": "container",
       "title": {
         "text": "Housing Affordability",
         "font": "Nunito Sans"
@@ -62,8 +62,8 @@
       }
     },
     {
-      "width": 200,
-      "height": 400,
+      "width": "container",
+      "height": "container",
       "title": "Income Distribution",
       "data": {
         "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/TenureOverTime.csv"
