@@ -67,7 +67,7 @@
         },
         "tooltip": [
           {"field": "Year", "type": "temporal", "title": "Year"},
-          {"field": "Population", "type": "quantitative", "title": "Population"}
+          {"field": "Population", "type": "quantitative", "title": "Population","format":".0f"}
         ]
       }
     },

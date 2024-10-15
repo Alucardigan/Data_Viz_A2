@@ -61,9 +61,9 @@
             },
             "tooltip": [
               {"field": "State", "type": "nominal", "title": "State"},
-              {"field": "MedianHousingPrice", "type": "quantitative", "title": "Housing Price"},
-              {"field": "MedianIncome", "type": "quantitative", "title": "Median Income"},
-              {"field": "HousingAffordability", "type": "quantitative", "title": "Affordability"},
+              {"field": "MedianHousingPrice", "type": "quantitative", "title": "Housing Price","format":".2f"},
+              {"field": "MedianIncome", "type": "quantitative", "title": "Median Income","format":".2f"},
+              {"field": "HousingAffordability", "type": "quantitative", "title": "Affordability", "format":".2f"},
               {"field": "Year", "type": "quantitative", "title": "Year"}
             ]
           }
