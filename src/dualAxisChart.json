@@ -1,14 +1,22 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A dual-axis chart to compare population growth and housing approvals by state over time, with a state selection dropdown.",
+  "config": {
+    "title": {"font": "Playfair Display, serif", "fontSize": 20},
+    "axis": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto, sans-serif","grid": true},
+    "legend": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto Slab, serif"}
+  },
+  
   "width": "container",
   "height": "container",
   "data": {
     "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/HousingApprovalsVSPopulation.csv"
   },
-  "title":{
-    "text":"Australian Population vs Building Approvals",
-    "font":"Nunito Sans"
+  "title": {
+    "text": "Australian Population vs Housing Construction Approvals",
+    "subtitle": "Comparison of the growth of the Australian population and new housing contruction from 2003 to 2020",
+    "subtitleFont": "Roboto, sans-serif",
+    "subtitleFontSize": 14
   },
   "params": [
     {
@@ -41,7 +49,6 @@
       "mark": {
         "type": "line",
         "point": true,
-        "color": "#1f77b4",
         "strokeWidth": 2
       },
       "encoding": {
@@ -53,10 +60,10 @@
         "y": {
           "field": "Population",
           "type": "quantitative",
-          "axis": {"title": "Population ", "titleColor": "#1f77b4"}
+          "axis": {"title": "Population ", "titleColor": "#7E57C2"}
         },
         "color": {
-          "value": "#1f77b4"
+          "value": "#7E57C2"
         },
         "tooltip": [
           {"field": "Year", "type": "temporal", "title": "Year"},
@@ -67,25 +74,28 @@
     {
       "mark": {
         "type": "line",
-        "color": "#ff7f0e",
         "strokeWidth": 2,
         "point": true
       },
       "encoding": {
         "x": {
           "field": "Year",
-          "type": "temporal"
+          "type": "temporal",
+          "axis": {
+            "grid": true
+          }
         },
         "y": {
           "field": "Housing Approvals",
           "type": "quantitative",
           "axis": {
             "title": "Housing Approvals",
-            "titleColor": "#ff7f0e"
+            "titleColor": "#26A69A",
+            "grid": true
           }
         },
         "color": {
-          "value": "#ff7f0e"
+          "value": "#26A69A"
         },
         "tooltip": [
           {"field": "Year", "type": "temporal", "title": "Year"},
@@ -114,7 +124,7 @@
       "mark": {"type": "rule", "strokeDash": [2, 2], "size": 2},
       "encoding": {
         "x": {"field": "year", "type": "temporal"},
-        "color": {"value": "red"}
+        "color": {"value": "black"}
       }
     },
     {
@@ -134,7 +144,7 @@
       "encoding": {
         "x": {"field": "year", "type": "temporal"},
         "text": {"field": "label", "type": "nominal"},
-        "color": {"value": "red"}
+        "color": {"value": "black"}
       }
     },
     {
@@ -146,7 +156,7 @@
       "mark": {"type": "rule", "strokeDash": [2, 2], "size": 2},
       "encoding": {
         "x": {"field": "year", "type": "temporal"},
-        "color": {"value": "red"}
+        "color": {"value": "black"}
       }
     },
     {
@@ -166,7 +176,7 @@
       "encoding": {
         "x": {"field": "year", "type": "temporal"},
         "text": {"field": "label", "type": "nominal"},
-        "color": {"value": "red"}
+        "color": {"value": "black"}
       }
     }
   ],

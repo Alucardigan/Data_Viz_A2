@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>The Australian Real Estate Chronicle</title>
+  <title>Real Estate Times</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-          <a class="navbar-brand" href="#">The Australian Real Estate Chronicle</a>
+          <a class="navbar-brand" href="#">Real Estate Times</a>
       </div>
   </nav>
 
@@ -23,21 +23,47 @@
           <p class="date-line">By Thejas Thekkekara Vinod</p>
       </div>
     </div>
-
-    <div class="row">
-      <div class="text-container">
-        <h4>Introduction</h4>
-        <p>Australia has quickly become one of the most speculative real estate markets leading to prices to outpace income</p>
-        <p>Over the years, more of the states have become unaffordable. In 2002, the lowest median house price $156950 AUD in Tasmania. </p>
-        <p>In 2020, the median house price in Tasmania has jumped to $351375 AUD.  </p>
-      </div>
-    </div>
     <div class="row">
       <div class="card" >
         <div class="card-body">
-          <h3 class="card-title">Geographic Distribution of Housing Prices</h3>
+          <h3 class="card-title">The Problem</h3>
           <div class="row">
-            <div id="symbol_map" class="chart-container"></div>
+            <div class="col-6">
+              <div id="symbol_map" class="chart-container"></div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3">
+              <div class="row h-100">
+                <div class="col-12 d-flex flex-column h-50">
+                  <div class="text-container flex-grow-1">
+                    <br>
+                    <p>
+                      Australia's real estate market has seen <span class="text-dark-blue">significant</span> price increases, making housing less affordable for many. 
+                      Affordability varies widely across states, with some regions facing more severe challenges. 
+                      Rising property costs, along with slower wage growth, have made it harder for households to afford homes. 
+                    </p>
+                    <p>
+                      Affordability is measured by comparing median home prices with median household incomes, showing how much of a household's earnings are consumed by housing costs.
+                      The darker areas on the map represent regions where housing is less affordable, meaning that a greater proportion of income is required to buy a home. 
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 d-flex flex-column h-50">
+                  <div class="text-container flex-grow-1">
+                    <br>
+                    <p>The donut chart represents the different tenure types in Australia, showing what percentage of the population is renting, 
+                      owning with a mortgage, or owning outright or on social housing. 
+                    </p>
+                    <p>
+                      This visualization highlights how Australians secure housing, giving insight into the proportion of the population relying on renting versus owning. 
+                      It helps illustrate the broader context of housing affordability and how it impacts people's living arrangements.</p>
+                    <p>
+                      It can be see that over the years, a higher percentage of the population are <span class="text-dark-blue">renting</span> or have paying a <span class="text-dark-blue">mortage</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -47,29 +73,32 @@
         <div class="card-body">
           <h3 class="card-title">Signs of a bubble</h3>
           <div class="row">
-            <div class="col-4">
-              <div class="text-container">
-                
-                <p>Economists often use different metrics to identify when a market has a bubble</p>
-                <p>The most common metric would be to compare the Housing Price Index (HPI) to Consumer Price Index (CPI) or Work Price Index</p>
-                <p>HPI represents the housing affordability across Australia, CPI represents inflation while WPI represents the labour costs</p>
-                <p> </p>
+            <div class="col-5">
+              <div class="row h-100">
+                <div class="col-12 d-flex flex-column h-50">
+                  <div class="text-container flex-grow-1">
+                    <br>
+                    <p>Economists often use different metrics to identify when a market has a bubble.
+                      The most common metric would be to compare the Housing Price Index (HPI) to Consumer Price Index (CPI) or Work Price Index(WPI)</p>
+                    <p><span class="text-dark-blue">HPI</span> represents the housing affordability across Australia, <span class="text-dark-blue">CPI</span> represents cost of goods/inflation rate while <span class="text-dark-blue">WPI</span> represents the labour costs</p>
+                    <p>The line chart represents these indexes over time, with HPI growing much faster than both CPI and WPI</p>
+
+                  </div>
+                </div>
+                <div class="col-12 d-flex flex-column h-50">
+                  <div class="text-container flex-grow-1">
+                    <p>The stress of a bubble can be measuered by looking at the percentage of income that is spent on housing by the population</p>
+                    <p>The stacked bar chart represents the different quantiles of income that is spent on housing over the years. </p>
+                    <p>The growth of the middle 2 quantiles(25%-50%) showcases a worrying trend of <span class="text-dark-blue">increasing</span> income pressures</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-7">
               <div id="Indexline_map" class="chart-container"></div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-8">
-              <div id="stackedBar" class="chart-container"></div>
-            </div>
-            <div class="col-4">
-              <div class="text-container">
-                <p>Income spent on housing/mortage</p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -80,9 +109,8 @@
           <div class="text-container">
             <p>
               One of the main reasons for the current housing bubble is the lack of construction of new housing.<br>
-              Property has become a speculative asset that contributes to the Australian GDP which incentivises compounding of housing prices. 
-              Changes to the Foreign Investment Review Board and COVID-19 further contributed to slower housing building
-
+              Property has become a <span class="text-dark-blue">speculative</span> asset that contributes to the Australian GDP which incentivises compounding of housing prices.<br>
+              Changes to the Foreign Investment Review Board and COVID-19 have further contributed to slower housing building. 
             </p>
           </div>
           <div id="dualAxis" class="chart-container"></div>
@@ -101,13 +129,13 @@
       window.addEventListener('resize', function() {embedCharts();});
 
       function embedCharts() {
-        vegaEmbed('#symbol_map', 'src/map.json', {actions: false, theme: 'quartz'})
+        vegaEmbed('#symbol_map', 'src/map.json', {actions: false})
             .catch(console.error);
-        vegaEmbed('#Indexline_map', 'src/indexLine.json', {actions: false, theme: 'quartz'})
+        vegaEmbed('#Indexline_map', 'src/indexLine.json', {actions: false})
             .catch(console.error);
-        vegaEmbed('#stackedBar', 'src/stackedBar.json', {actions: false, theme: 'quartz'})
+        vegaEmbed('#stackedBar', 'src/stackedBar.json', {actions: false})
             .catch(console.error);
-        vegaEmbed('#dualAxis', 'src/dualAxisChart.json', {actions: false, theme: 'quartz'})
+        vegaEmbed('#dualAxis', 'src/dualAxisChart.json', {actions: false})
             .catch(console.error)
       }
     </script>

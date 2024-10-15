@@ -1,18 +1,83 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    
-    "description": "HPI vs CPI vs WPI visualised",
-    
-    "layer":[{"data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/IndexData.csv"},
-    "mark": {"type":"line","point":true},
-    "transform": [{"filter":"datum.Year<=1609459200000"}],
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "resolve": {"scale": {"color": "independent"}},
+  "config": {
+    "title": {"font": "Playfair Display, serif", "fontSize": 20},
+    "axis": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto, sans-serif","grid": true},
+    "legend": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto Slab, serif"}
+  },
+  "vconcat":[{
+    "title": {
+      "text": "House Price Index vs Consumer Price Index and Work Price Index",
+      "subtitle": "Comparison of different price indices from 2003 to 2020",
+      "subtitleFont": "Roboto, sans-serif",
+      "subtitleFontSize": 14
+    },
+    "data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/IndexData.csv"},
+    "mark": {"type": "line", "point": true},
+    "transform": [{"filter": "datum.Year>=2003 && datum.Year<=2020"}],
+    "params": [
+      {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+    ],
     "encoding": {
-      "x": {"field": "Year", "type": "temporal"},
-      "y": {"field": "value", "type": "quantitative"},
-      "color":{"field":"Index", "type": "nominal"}
-    }}
-  ],
-    "width": "container",
-    "height": "container"
-  
+      "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": -45}},
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Index Basis Points"
+      },
+      "color": {"field": "Index", "type": "nominal","scale": {
+        "range": ["#7E57C2", "#26A69A", "#FFAB91", "#5C6BC0", "#FFD54F"]
+      }},
+      "tooltip": [
+        {"field": "Year", "type": "ordinal", "title": "Year"},
+        {"field": "value", "type": "quantitative", "title": "Basis Points", "format": ".0f"}
+      ]
+    },
+    "width": 500,
+    "height": 400
+  },
+  {
+    "title": {
+      "text": "Income Distribution by Household Quantile",
+      "subtitle": "Percentage of income used by different household quantiles",
+      "subtitleFont": "Roboto, sans-serif",
+      "subtitleFontSize": 14
+    },
+    "data": {"url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/incomeUsedByHousehold.csv"},
+    "transform": [{"filter": "datum.Year>=2003 && datum.Year<=2020"}],
+    "width": 500,
+    "height": 400,
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year",
+        "scale": {"domain": {"param": "brush"}},
+        "axis": {"labelAngle": -45}
+      },
+      "y": {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Percentage of Population",
+        "stack": true,
+        "scale": {"domain": [0, 100]}
+      },
+      "color": {
+        "field": "Quantile",
+        "type": "nominal",
+        "title": "Income% spent on housing",
+        "scale": {
+          "range": ["#7E57C2", "#26A69A", "#FFAB91", "#5C6BC0", "#FFD54F"]
+        },
+        "legend": {"orient": "right", "offset": 10}
+      },
+      "tooltip": [
+        {"field": "Year", "type": "ordinal"},
+        {"field": "Quantile", "type": "nominal"},
+        {"field": "Percentage", "type": "quantitative", "format": ".1f"}
+      ]
+    }
+  }]
 }

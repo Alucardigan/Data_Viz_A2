@@ -1,70 +1,98 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "hconcat": [
+  "config": {
+    "title": {"font": "Playfair Display, serif", "fontSize": 20},
+    "axis": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto, sans-serif"},
+    "legend": {"labelFont": "Roboto, sans-serif", "titleFont": "Roboto Slab, serif"}
+  },
+  "vconcat": [
     {
       "width": "container",
       "height": "container",
       "title": {
-        "text": "Housing Affordability",
-        "font": "Nunito Sans"
+        "text": "Housing affordability",
+        "subtitle": "Housing Affordability Index by State between 2003 and 2020",
+        "subtitleFont": "Roboto, sans-serif",
+        "subtitleFontSize": 14
       },
-      "data": {
-        "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/housingAffordability.csv"
-      },
-      "transform": [
+      "layer": [
         {
-          "lookup": "State",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/AustralianMapWithBorders.json",
-              "format": {
-                "type": "topojson",
-                "feature": "ne_50m_admin_1_states_provinces"
+          "data": {
+            "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/housingAffordability.csv"
+          },
+          "transform": [
+            {
+              "lookup": "State",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/AustralianMapWithBorders.json",
+                  "format": {
+                    "type": "topojson",
+                    "feature": "ne_50m_admin_1_states_provinces"
+                  }
+                },
+                "key": "properties.name",
+                "fields": ["type", "geometry"]
               }
             },
-            "key": "properties.name",
-            "fields": ["type", "geometry"]
+            {
+              "filter": "datum.Year == yearSelect"
+            }
+          ],
+          "projection": {
+            "type": "mercator"
+          },
+          "mark": {
+            "type": "geoshape",
+            "stroke": "black",
+            "strokeWidth": 0.5
+          },
+          "encoding": {
+            "color": {
+              "field": "HousingAffordability",
+              "type": "quantitative",
+              "scale": {
+                "domain": [0, 15],
+                "scheme": "viridis"
+              },
+              "legend": {
+                "title": "Housing Affordability Index"
+              }
+            },
+            "tooltip": [
+              {"field": "State", "type": "nominal", "title": "State"},
+              {"field": "MedianHousingPrice", "type": "quantitative", "title": "Housing Price"},
+              {"field": "MedianIncome", "type": "quantitative", "title": "Median Income"},
+              {"field": "HousingAffordability", "type": "quantitative", "title": "Affordability"},
+              {"field": "Year", "type": "quantitative", "title": "Year"}
+            ]
           }
         },
         {
-          "filter": "datum.Year == yearSelect"
-        }
-      ],
-      "projection": {
-        "type": "mercator"
-      },
-      "mark": {
-        "type": "geoshape",
-        "stroke": "black",
-        "strokeWidth": 0.5
-      },
-      "encoding": {
-        "color": {
-          "field": "HousingAffordability",
-          "type": "quantitative",
-          "scale": {
-            "domain": [0, 15]
+          "data": {
+            "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/main/data/AustralianMapWithBorders.json",
+            "format": {
+              "type": "topojson",
+              "feature": "ne_50m_graticules_5"
+            }
           },
-          "legend": {
-            "format": "~s",
-            "labelFont": "Nunito Sans",
-            "title": "Affordability",
-            "titleFont": "Nunito Sans"
+          "mark": {
+            "type": "geoshape",
+            "stroke": "gray",
+            "strokeWidth": 0.5
           }
-        },
-        "tooltip": [
-          {"field": "State", "type": "nominal", "title": "State"},
-          {"field": "MedianHousingPrice", "type": "quantitative", "title": "Housing Price"},
-          {"field": "MedianIncome", "type": "quantitative", "title": "Median Income"},
-          {"field": "HousingAffordability", "type": "quantitative", "title": "Affordability"},
-          {"field": "Year", "type": "quantitative", "title": "Year"}
-        ]
-      }
+        }
+      ]
     },
     {
       "width": "container",
       "height": "container",
-      "title": "Income Distribution",
+      "title": {
+        "text": "Housing Ownership %",
+        "subtitle": "Percentage of population vs the tenure type housing",
+        "subtitleFont": "Roboto, sans-serif",
+        "subtitleFontSize": 14
+      },
       "data": {
         "url": "https://raw.githubusercontent.com/Alucardigan/Data_Viz_A2/refs/heads/main/data/TenureOverTime.csv"
       },
@@ -73,10 +101,18 @@
           "filter": "datum.Year == yearSelect"
         }
       ],
-      "mark": {
-        "type": "arc",
-        "innerRadius": 50
+      "layer": [{
+        "mark": {
+          "type": "arc",
+          "innerRadius": 50
+        }
       },
+      {
+        "mark": {"type": "text", "radius": 100, "fill": "black"},
+        "encoding": {
+          "text": {"field": "%", "type": "quantitative"}
+        }}
+      ],
       "encoding": {
         "theta": {
           "field": "%",
@@ -86,8 +122,12 @@
         "color": {
           "field": "Tenure type",
           "type": "nominal",
+          "scale": {
+            "range": ["#7E57C2", "#26A69A", "#FFAB91", "#5C6BC0", "#FFD54F"]
+          },
           "title": "Tenure type"
-        },
+        }
+        ,
         "tooltip": [
           {"field": "Tenure type", "type": "nominal", "title": "Tenure type"},
           {"field": "%", "type": "quantitative", "title": "Percentage"},
@@ -102,7 +142,7 @@
       "value": 2020,
       "bind": {
         "input": "range",
-        "min": 2002,
+        "min": 2003,
         "max": 2020,
         "step": 1,
         "name": "Select Year:"
